@@ -1,9 +1,9 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668122237397,
+  "lastUpdate": 1668158011901,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
-    {
+      {
         "commit": {
           "author": {
             "email": "26634292+bors[bot]@users.noreply.github.com",
@@ -539,6 +539,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 13118,
             "range": "± 26",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "26634292+bors[bot]@users.noreply.github.com",
+            "name": "bors[bot]",
+            "username": "bors[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "5844790cb953e2873f2359e8d2519dd490801e86",
+          "message": "Merge #41\n\n41: Fix docs job upload condition r=mbrobbel a=mbrobbel\n\nThis fixes the artifact upload and should fix the docs deploy job.\r\n\r\nbors r+\n\nCo-authored-by: Matthijs Brobbel <m1brobbel@gmail.com>",
+          "timestamp": "2022-11-11T09:05:54Z",
+          "tree_id": "447b72c01f1608d9bb09ea79b81aec08239c6128",
+          "url": "https://github.com/mbrobbel/narrow/commit/5844790cb953e2873f2359e8d2519dd490801e86"
+        },
+        "date": 1668158011610,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 5949,
+            "range": "± 84",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 5921,
+            "range": "± 20",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 5961,
+            "range": "± 9",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 15252,
+            "range": "± 8",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 15251,
+            "range": "± 7",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 15250,
+            "range": "± 7",
             "unit": "ns/iter"
           }
         ]
