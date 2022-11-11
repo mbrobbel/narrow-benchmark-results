@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668159092838,
+  "lastUpdate": 1668179074574,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -659,6 +659,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 15245,
             "range": "± 6",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "26634292+bors[bot]@users.noreply.github.com",
+            "name": "bors[bot]",
+            "username": "bors[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "ee07557e7a7b805aee3640624f6b6cd05b4f028f",
+          "message": "Merge #43\n\n43: Add deploy environments for crates.io and benchmark-results r=mbrobbel a=mbrobbel\n\nbors r+\n\nCo-authored-by: Matthijs Brobbel <m1brobbel@gmail.com>",
+          "timestamp": "2022-11-11T14:55:32Z",
+          "tree_id": "c5641a2f3555d60faeb526fa84f5f500bb9bbfcc",
+          "url": "https://github.com/mbrobbel/narrow/commit/ee07557e7a7b805aee3640624f6b6cd05b4f028f"
+        },
+        "date": 1668179074292,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 7296,
+            "range": "± 4",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 7281,
+            "range": "± 2",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 7319,
+            "range": "± 3",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 13080,
+            "range": "± 7",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 13087,
+            "range": "± 3",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 13086,
+            "range": "± 4",
             "unit": "ns/iter"
           }
         ]
