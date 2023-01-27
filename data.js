@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669316881367,
+  "lastUpdate": 1674810919079,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -839,6 +839,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 15247,
             "range": "± 16",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "26634292+bors[bot]@users.noreply.github.com",
+            "name": "bors[bot]",
+            "username": "bors[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "f4e88e65cee6e01dcd03485789465d2af2f31244",
+          "message": "Merge #47\n\n47: Fix clippy warnings r=mbrobbel a=mbrobbel\n\nbors r+\n\nCo-authored-by: Matthijs Brobbel <m1brobbel@gmail.com>",
+          "timestamp": "2023-01-27T09:08:51Z",
+          "tree_id": "8e163643daa1a8f33af264e99e2f94d1c80e9368",
+          "url": "https://github.com/mbrobbel/narrow/commit/f4e88e65cee6e01dcd03485789465d2af2f31244"
+        },
+        "date": 1674810918648,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 5946,
+            "range": "± 7",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 5919,
+            "range": "± 9",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 5923,
+            "range": "± 42",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 15532,
+            "range": "± 58",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 15534,
+            "range": "± 8",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 15538,
+            "range": "± 249",
             "unit": "ns/iter"
           }
         ]
