@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1674818241195,
+  "lastUpdate": 1674819759842,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -959,6 +959,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 20459,
             "range": "± 1181",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "26634292+bors[bot]@users.noreply.github.com",
+            "name": "bors[bot]",
+            "username": "bors[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "7ba4008fd164be59a58bee16cd8fa3ed9411c4d3",
+          "message": "Merge #49\n\n49: Support nullable string arrays r=mbrobbel a=dhruv9vats\n\nCloses #48 by:\r\n- Implementing `FromIterator<Option<...>>` for `StringArray<true>`\r\n- Implementing `ValidityBitmap` for `StringArray<true>`\r\n- Testing these implementations.\n\nCo-authored-by: Dhruv Vats <dhruv25vats@gmail.com>",
+          "timestamp": "2023-01-27T11:36:30Z",
+          "tree_id": "1369f5db514467e38ac417e31ca749d20ba5e082",
+          "url": "https://github.com/mbrobbel/narrow/commit/7ba4008fd164be59a58bee16cd8fa3ed9411c4d3"
+        },
+        "date": 1674819759559,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 5954,
+            "range": "± 20",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 5917,
+            "range": "± 20",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 5918,
+            "range": "± 7",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 15536,
+            "range": "± 138",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 15534,
+            "range": "± 7",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 15534,
+            "range": "± 5",
             "unit": "ns/iter"
           }
         ]
