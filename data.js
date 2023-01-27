@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1674810919079,
+  "lastUpdate": 1674818241195,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -899,6 +899,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 15538,
             "range": "± 249",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "26634292+bors[bot]@users.noreply.github.com",
+            "name": "bors[bot]",
+            "username": "bors[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "32aea23d1758b31897921c44fd68ffb25e48c395",
+          "message": "Merge #46\n\n46: Bump actions/configure-pages from 2 to 3 r=mbrobbel a=dependabot[bot]\n\nBumps [actions/configure-pages](https://github.com/actions/configure-pages) from 2 to 3.\n<details>\n<summary>Release notes</summary>\n<p><em>Sourced from <a href=\"https://github.com/actions/configure-pages/releases\">actions/configure-pages's releases</a>.</em></p>\n<blockquote>\n<h2>v3.0.0</h2>\n<h1>Changelog</h1>\n<ul>\n<li>Update default behavior to NOT attempt to create/enable the Pages site <a href=\"https://github.com/JamesMGreene\"><code>`@​JamesMGreene</code></a>` (<a href=\"https://github-redirect.dependabot.com/actions/configure-pages/issues/48\">#48</a>)</li>\n<li>Bump actions/publish-action from 0.2.1 to 0.2.2 <a href=\"https://github.com/dependabot\"><code>`@​dependabot</code></a>` (<a href=\"https://github-redirect.dependabot.com/actions/configure-pages/issues/47\">#47</a>)</li>\n<li>Bump json5 from 1.0.1 to 1.0.2 <a href=\"https://github.com/dependabot\"><code>`@​dependabot</code></a>` (<a href=\"https://github-redirect.dependabot.com/actions/configure-pages/issues/45\">#45</a>)</li>\n<li>Add Dependabot config for Actions usage updates <a href=\"https://github.com/JamesMGreene\"><code>`@​JamesMGreene</code></a>` (<a href=\"https://github-redirect.dependabot.com/actions/configure-pages/issues/46\">#46</a>)</li>\n</ul>\n<p>See details of <a href=\"https://github.com/actions/configure-pages/compare/v2.1.3...v2.1.4\">all code changes</a> since previous release.</p>\n<h2>v2.1.3</h2>\n<h1>Changelog</h1>\n<ul>\n<li>Warn about unsupported file extensions <a href=\"https://github.com/JamesMGreene\"><code>`@​JamesMGreene</code></a>` (<a href=\"https://github-redirect.dependabot.com/actions/configure-pages/issues/43\">#43</a>)</li>\n<li>Update to the latest <code>actions/publish-action</code> <a href=\"https://github.com/JamesMGreene\"><code>`@​JamesMGreene</code></a>` (<a href=\"https://github-redirect.dependabot.com/actions/configure-pages/issues/42\">#42</a>)</li>\n<li>Test: Better support alternative file extensions for blank config files <a href=\"https://github.com/JamesMGreene\"><code>`@​JamesMGreene</code></a>` (<a href=\"https://github-redirect.dependabot.com/actions/configure-pages/issues/41\">#41</a>)</li>\n<li>Support wrapped exports <a href=\"https://github.com/JamesMGreene\"><code>`@​JamesMGreene</code></a>` (<a href=\"https://github-redirect.dependabot.com/actions/configure-pages/issues/38\">#38</a>)</li>\n<li>Merge PR <a href=\"https://github-redirect.dependabot.com/actions/configure-pages/issues/33\">#33</a> <a href=\"https://github.com/JamesMGreene\"><code>`@​JamesMGreene</code></a>` (<a href=\"https://github-redirect.dependabot.com/actions/configure-pages/issues/37\">#37</a>)</li>\n<li>Bump actions <a href=\"https://github.com/yoannchaudet\"><code>`@​yoannchaudet</code></a>` (<a href=\"https://github-redirect.dependabot.com/actions/configure-pages/issues/35\">#35</a>)</li>\n</ul>\n<p>See details of <a href=\"https://github.com/actions/configure-pages/compare/v2.1.2...v2.1.3\">all code changes</a> since previous release.</p>\n<h2>v2.1.2</h2>\n<h1>Changelog</h1>\n<ul>\n<li>Update <code>`@​actions/core</code>` to 1.10.0 <a href=\"https://github.com/rentziass\"><code>`@​rentziass</code></a>` (<a href=\"https://github-redirect.dependabot.com/actions/configure-pages/issues/31\">#31</a>)</li>\n</ul>\n<p>See details of <a href=\"https://github.com/actions/configure-pages/compare/v2.1.1...v2.1.2\">all code changes</a> since previous release.</p>\n<h2>v2.1.1</h2>\n<h1>Changelog</h1>\n<ul>\n<li>Fix non-Code links in README <a href=\"https://github.com/JamesMGreene\"><code>`@​JamesMGreene</code></a>` (<a href=\"https://github-redirect.dependabot.com/actions/configure-pages/issues/27\">#27</a>)</li>\n<li>Clean up some unused dependencies <a href=\"https://github.com/JamesMGreene\"><code>`@​JamesMGreene</code></a>` (<a href=\"https://github-redirect.dependabot.com/actions/configure-pages/issues/26\">#26</a>)</li>\n<li>Add ESLint <a href=\"https://github.com/JamesMGreene\"><code>`@​JamesMGreene</code></a>` (<a href=\"https://github-redirect.dependabot.com/actions/configure-pages/issues/25\">#25</a>)</li>\n<li>Expand Prettier usage <a href=\"https://github.com/JamesMGreene\"><code>`@​JamesMGreene</code></a>` (<a href=\"https://github-redirect.dependabot.com/actions/configure-pages/issues/24\">#24</a>)</li>\n</ul>\n<p>See details of <a href=\"https://github.com/actions/configure-pages/compare/v2.1.0...v2.1.1\">all code changes</a> since previous release.</p>\n<h2>v2.1.0</h2>\n<h1>Changelog</h1>\n<ul>\n<li>Apply consistent spacing and use of single quotes <a href=\"https://github.com/JamesMGreene\"><code>`@​JamesMGreene</code></a>` (<a href=\"https://github.com/actions/configure-pages/commit/45efe609374726fd94570f0e5a4c32f41675e823\">https://github.com/actions/configure-pages/commit/45efe609374726fd94570f0e5a4c32f41675e823</a>)</li>\n<li>Use GitHub Pages site origin for setting up SSG configs <a href=\"https://github.com/AndrewLester\"><code>`@​AndrewLester</code></a>` (<a href=\"https://github-redirect.dependabot.com/actions/configure-pages/pull/21\">#21</a>)</li>\n<li>Update major version only on full releases <a href=\"https://github.com/JamesMGreene\"><code>`@​JamesMGreene</code></a>` (<a href=\"https://github-redirect.dependabot.com/actions/configure-pages/pull/20\">#20</a>)</li>\n</ul>\n<p>See details of <a href=\"https://github.com/actions/configure-pages/compare/v2.0.0...v2.0.1\">all code changes</a> since previous release.</p>\n</blockquote>\n</details>\n<details>\n<summary>Commits</summary>\n<ul>\n<li><a href=\"https://github.com/actions/configure-pages/commit/5992ce8fd557229bb0e98f78a89136a149cc9758\"><code>5992ce8</code></a> Merge pull request <a href=\"https://github-redirect.dependabot.com/actions/configure-pages/issues/48\">#48</a> from actions/do-not-enable-by-default</li>\n<li><a href=\"https://github.com/actions/configure-pages/commit/c8deda3832e3d38f7eb5bcaf7ebf9caab3b80449\"><code>c8deda3</code></a> Update distributables</li>\n<li><a href=\"https://github.com/actions/configure-pages/commit/5d8963e8a5ad9247b4796dc9d7c8071edf7902df\"><code>5d8963e</code></a> Update default behavior to NOT attempt to create/enable the Pages site</li>\n<li><a href=\"https://github.com/actions/configure-pages/commit/529ba710d519aa4546466c0eede5fb44bb7e37fc\"><code>529ba71</code></a> Merge pull request <a href=\"https://github-redirect.dependabot.com/actions/configure-pages/issues/47\">#47</a> from actions/dependabot/github_actions/actions/publish...</li>\n<li><a href=\"https://github.com/actions/configure-pages/commit/29e9dd5abeec9a7e9bbd197ca34df0ca6ccfa2b1\"><code>29e9dd5</code></a> Bump actions/publish-action from 0.2.1 to 0.2.2</li>\n<li><a href=\"https://github.com/actions/configure-pages/commit/c450a282d7e64525a8c9eb838cb283c6490b1c80\"><code>c450a28</code></a> Merge pull request <a href=\"https://github-redirect.dependabot.com/actions/configure-pages/issues/45\">#45</a> from actions/dependabot/npm_and_yarn/json5-1.0.2</li>\n<li><a href=\"https://github.com/actions/configure-pages/commit/6567d4c154b26b7bd05d333f214469bf5d1315e3\"><code>6567d4c</code></a> Bump json5 from 1.0.1 to 1.0.2</li>\n<li><a href=\"https://github.com/actions/configure-pages/commit/aba1aa6bab0f46358e2cf2ff046300601009e2a7\"><code>aba1aa6</code></a> Merge pull request <a href=\"https://github-redirect.dependabot.com/actions/configure-pages/issues/46\">#46</a> from actions/dependabot-config</li>\n<li><a href=\"https://github.com/actions/configure-pages/commit/6a80311a7311cfb534beb3c7e1156325dcc2e776\"><code>6a80311</code></a> Comply with Prettier expectations</li>\n<li><a href=\"https://github.com/actions/configure-pages/commit/380c12d4cc49b34de8073de775c4aa81a2c4fcc7\"><code>380c12d</code></a> Add Dependabot config for Actions usage updates</li>\n<li>See full diff in <a href=\"https://github.com/actions/configure-pages/compare/v2...v3\">compare view</a></li>\n</ul>\n</details>\n<br />\n\n\n[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=actions/configure-pages&package-manager=github_actions&previous-version=2&new-version=3)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting ``@dependabot` rebase`.\n\n[//]: # (dependabot-automerge-start)\n[//]: # (dependabot-automerge-end)\n\n---\n\n<details>\n<summary>Dependabot commands and options</summary>\n<br />\n\nYou can trigger Dependabot actions by commenting on this PR:\n- ``@dependabot` rebase` will rebase this PR\n- ``@dependabot` recreate` will recreate this PR, overwriting any edits that have been made to it\n- ``@dependabot` merge` will merge this PR after your CI passes on it\n- ``@dependabot` squash and merge` will squash and merge this PR after your CI passes on it\n- ``@dependabot` cancel merge` will cancel a previously requested merge and block automerging\n- ``@dependabot` reopen` will reopen this PR if it is closed\n- ``@dependabot` close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n- ``@dependabot` ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n- ``@dependabot` ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n- ``@dependabot` ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n\n\n</details>\n\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2023-01-27T11:10:26Z",
+          "tree_id": "5a34abb1ca74fd3fd007ab9ef6e252b8d5464185",
+          "url": "https://github.com/mbrobbel/narrow/commit/32aea23d1758b31897921c44fd68ffb25e48c395"
+        },
+        "date": 1674818240941,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 6974,
+            "range": "± 601",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 6894,
+            "range": "± 371",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 6905,
+            "range": "± 231",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 20235,
+            "range": "± 1131",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 21244,
+            "range": "± 1431",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 20459,
+            "range": "± 1181",
             "unit": "ns/iter"
           }
         ]
