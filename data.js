@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1674819759842,
+  "lastUpdate": 1675204483458,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -1019,6 +1019,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 15534,
             "range": "± 5",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "26634292+bors[bot]@users.noreply.github.com",
+            "name": "bors[bot]",
+            "username": "bors[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "22ec168469552fa70eda36ed54ee47a30e5dd0d8",
+          "message": "Merge #52\n\n52: Use cargo publish directly instead of publish action r=mbrobbel a=mbrobbel\n\nbors r+\n\nCo-authored-by: Matthijs Brobbel <m1brobbel@gmail.com>",
+          "timestamp": "2023-01-31T22:27:36Z",
+          "tree_id": "eaa7abafe6a83dd5189ad3cab1ffa468e3707e60",
+          "url": "https://github.com/mbrobbel/narrow/commit/22ec168469552fa70eda36ed54ee47a30e5dd0d8"
+        },
+        "date": 1675204482961,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 6493,
+            "range": "± 292",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 6477,
+            "range": "± 131",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 6584,
+            "range": "± 236",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 14902,
+            "range": "± 617",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 14831,
+            "range": "± 528",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 14846,
+            "range": "± 469",
             "unit": "ns/iter"
           }
         ]
