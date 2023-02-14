@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675204483458,
+  "lastUpdate": 1676407278020,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -1079,6 +1079,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 14846,
             "range": "± 469",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "26634292+bors[bot]@users.noreply.github.com",
+            "name": "bors[bot]",
+            "username": "bors[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "8edbfdce61be8d1365f5cab2f9b33fb79335a2db",
+          "message": "Merge #50\n\n50: Add `RunEndEncoded` array r=mbrobbel a=mbrobbel\n\nFirst iteration of run end encoded arrays. \r\n\r\nIn addition:\r\n- Added `ArrayType` impl for string types\r\n- Removed struct stub\r\n- Fixed a typo\r\n- Add `Index` impl for `FixedSizePrimitiveArray`\n\nCo-authored-by: Matthijs Brobbel <m1brobbel@gmail.com>",
+          "timestamp": "2023-02-14T20:34:10Z",
+          "tree_id": "d847d974aa5a5c486ea9a22829d8bd1a5a28e44f",
+          "url": "https://github.com/mbrobbel/narrow/commit/8edbfdce61be8d1365f5cab2f9b33fb79335a2db"
+        },
+        "date": 1676407277421,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 6286,
+            "range": "± 320",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 6239,
+            "range": "± 240",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 6270,
+            "range": "± 227",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 14958,
+            "range": "± 857",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 14921,
+            "range": "± 582",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 14903,
+            "range": "± 684",
             "unit": "ns/iter"
           }
         ]
