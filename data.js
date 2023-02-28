@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676410920333,
+  "lastUpdate": 1677614422308,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -1199,6 +1199,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 14824,
             "range": "± 611",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "26634292+bors[bot]@users.noreply.github.com",
+            "name": "bors[bot]",
+            "username": "bors[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "dd3113d18ff9157d89c8fac9298d49e23e0ed44f",
+          "message": "Merge #56\n\n56: Ignore `dtolnay/rust-toolchain` updates r=mbrobbel a=mbrobbel\n\nbors r+\n\nCo-authored-by: Matthijs Brobbel <m1brobbel@gmail.com>",
+          "timestamp": "2023-02-28T19:53:32Z",
+          "tree_id": "ff0318a24056ee7a933d64c50fd0c82dee28bc7b",
+          "url": "https://github.com/mbrobbel/narrow/commit/dd3113d18ff9157d89c8fac9298d49e23e0ed44f"
+        },
+        "date": 1677614421891,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 6048,
+            "range": "± 35",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 6066,
+            "range": "± 49",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 6051,
+            "range": "± 50",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 15539,
+            "range": "± 7",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 15538,
+            "range": "± 6",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 15538,
+            "range": "± 14",
             "unit": "ns/iter"
           }
         ]
