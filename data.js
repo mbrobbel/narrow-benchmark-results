@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677614422308,
+  "lastUpdate": 1679386529655,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -1259,6 +1259,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 15538,
             "range": "± 14",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "26634292+bors[bot]@users.noreply.github.com",
+            "name": "bors[bot]",
+            "username": "bors[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "db768b52a2c40920dd6b976277af9c174317fda9",
+          "message": "Merge #58 #59\n\n58: Bump actions/deploy-pages from 1 to 2 r=mbrobbel a=dependabot[bot]\n\nBumps [actions/deploy-pages](https://github.com/actions/deploy-pages) from 1 to 2.\n<details>\n<summary>Release notes</summary>\n<p><em>Sourced from <a href=\"https://github.com/actions/deploy-pages/releases\">actions/deploy-pages's releases</a>.</em></p>\n<blockquote>\n<h2>v2.0.0</h2>\n<h1>Changelog</h1>\n<ul>\n<li><strong>REAPPLY:</strong> Update the deployment API endpoints used by the api-client module <a href=\"https://github.com/TooManyBees\"><code>`@​TooManyBees</code></a>` / <a href=\"https://github.com/JamesMGreene\"><code>`@​JamesMGreene</code></a>` (<a href=\"https://redirect.github.com/actions/deploy-pages/issues/140\">#140</a>)</li>\n</ul>\n<p>See details of <a href=\"https://github.com/actions/deploy-pages/compare/v1.2.8...v2.0.0\">all code changes</a> since previous release.</p>\n<h2>v1.2.8</h2>\n<p>⚠️ This release is essentially a revert of <a href=\"https://github.com/actions/deploy-pages/releases/v1.2.7\"><code>v1.2.7</code></a> and identical to the prior release <a href=\"https://github.com/actions/deploy-pages/releases/v1.2.6\"><code>v1.2.6</code></a>.</p>\n<h1>Changelog</h1>\n<ul>\n<li>Revert shifted Deployments API endpoint usage <a href=\"https://github.com/JamesMGreene\"><code>`@​JamesMGreene</code></a>` (<a href=\"https://redirect.github.com/actions/deploy-pages/issues/139\">#139</a>)</li>\n</ul>\n<p>See details of <a href=\"https://github.com/actions/deploy-pages/compare/v1.2.7...v1.2.8\">all code changes</a> since previous release.</p>\n<h2>v1.2.7</h2>\n<h1>Changelog</h1>\n<ul>\n<li>Update the deployment API endpoints used by the api-client module <a href=\"https://github.com/TooManyBees\"><code>`@​TooManyBees</code></a>` (<a href=\"https://redirect.github.com/actions/deploy-pages/issues/136\">#136</a>)</li>\n</ul>\n<p>See details of <a href=\"https://github.com/actions/deploy-pages/compare/v1.2.6...v1.2.7\">all code changes</a> since previous release.</p>\n<h2>v1.2.6</h2>\n<h1>Changelog</h1>\n<ul>\n<li>Bump eslint from 8.35.0 to 8.36.0 <a href=\"https://github.com/dependabot\"><code>`@​dependabot</code></a>` (<a href=\"https://redirect.github.com/actions/deploy-pages/issues/133\">#133</a>)</li>\n<li>Bump <code>`@​actions/http-client</code>` from 2.0.1 to 2.1.0 <a href=\"https://github.com/dependabot\"><code>`@​dependabot</code></a>` (<a href=\"https://redirect.github.com/actions/deploy-pages/issues/134\">#134</a>)</li>\n</ul>\n<p>See details of <a href=\"https://github.com/actions/deploy-pages/compare/v1.2.5...v1.2.6\">all code changes</a> since previous release.</p>\n<h2>v1.2.5</h2>\n<h1>Changelog</h1>\n<ul>\n<li>Use the <code>`@actions/http-client</code>` and <code>`@actions/github</code>` modules for proxy support <a href=\"https://github.com/JamesMGreene\"><code>`@​JamesMGreene</code></a>` (<a href=\"https://redirect.github.com/actions/deploy-pages/issues/124\">#124</a>)</li>\n<li>Improve name of distributables checking workflow <a href=\"https://github.com/JamesMGreene\"><code>`@​JamesMGreene</code></a>` (<a href=\"https://redirect.github.com/actions/deploy-pages/issues/131\">#131</a>)</li>\n<li>Bump eslint-config-prettier from 8.6.0 to 8.7.0 <a href=\"https://github.com/dependabot\"><code>`@​dependabot</code></a>` (<a href=\"https://redirect.github.com/actions/deploy-pages/issues/130\">#130</a>)</li>\n<li>Bump jest from 29.4.3 to 29.5.0 <a href=\"https://github.com/dependabot\"><code>`@​dependabot</code></a>` (<a href=\"https://redirect.github.com/actions/deploy-pages/issues/129\">#129</a>)</li>\n<li>Bump eslint from 8.34.0 to 8.35.0 <a href=\"https://github.com/dependabot\"><code>`@​dependabot</code></a>` (<a href=\"https://redirect.github.com/actions/deploy-pages/issues/127\">#127</a>)</li>\n<li>Revise Dependabot rebuild workflow <a href=\"https://github.com/JamesMGreene\"><code>`@​JamesMGreene</code></a>` (<a href=\"https://redirect.github.com/actions/deploy-pages/issues/126\">#126</a>)</li>\n<li>Deprecate the <code>conclusion</code> parameter for the Action <a href=\"https://github.com/JamesMGreene\"><code>`@​JamesMGreene</code></a>` (<a href=\"https://redirect.github.com/actions/deploy-pages/issues/125\">#125</a>)</li>\n<li>Bump prettier from 2.8.3 to 2.8.4 <a href=\"https://github.com/dependabot\"><code>`@​dependabot</code></a>` (<a href=\"https://redirect.github.com/actions/deploy-pages/issues/123\">#123</a>)</li>\n<li>Bump jest from 29.4.1 to 29.4.3 <a href=\"https://github.com/dependabot\"><code>`@​dependabot</code></a>` (<a href=\"https://redirect.github.com/actions/deploy-pages/issues/122\">#122</a>)</li>\n<li>Bump eslint from 8.33.0 to 8.34.0 <a href=\"https://github.com/dependabot\"><code>`@​dependabot</code></a>` (<a href=\"https://redirect.github.com/actions/deploy-pages/issues/121\">#121</a>)</li>\n<li>Separate use of Release Drafter <a href=\"https://github.com/JamesMGreene\"><code>`@​JamesMGreene</code></a>` (<a href=\"https://redirect.github.com/actions/deploy-pages/issues/119\">#119</a>)</li>\n<li>Bump axios from 1.3.0 to 1.3.3 <a href=\"https://github.com/dependabot\"><code>`@​dependabot</code></a>` (<a href=\"https://redirect.github.com/actions/deploy-pages/issues/113\">#113</a>)</li>\n<li>Bump eslint-plugin-github from 4.3.4 to 4.6.1 <a href=\"https://github.com/dependabot\"><code>`@​dependabot</code></a>` (<a href=\"https://redirect.github.com/actions/deploy-pages/issues/116\">#116</a>)</li>\n<li>Update rebuilding workflow to utilize an org-owned PAT <a href=\"https://github.com/JamesMGreene\"><code>`@​JamesMGreene</code></a>` (<a href=\"https://redirect.github.com/actions/deploy-pages/issues/115\">#115</a>)</li>\n<li>Bump nock from 13.2.0 to 13.3.0 <a href=\"https://github.com/dependabot\"><code>`@​dependabot</code></a>` (<a href=\"https://redirect.github.com/actions/deploy-pages/issues/104\">#104</a>)</li>\n<li>Add a workflow to rebuild the distributables for Dependabot PRs <a href=\"https://github.com/JamesMGreene\"><code>`@​JamesMGreene</code></a>` (<a href=\"https://redirect.github.com/actions/deploy-pages/issues/110\">#110</a>)</li>\n</ul>\n<!-- raw HTML omitted -->\n</blockquote>\n<p>... (truncated)</p>\n</details>\n<details>\n<summary>Commits</summary>\n<ul>\n<li><a href=\"https://github.com/actions/deploy-pages/commit/73e62e651178eeba977de2dc9f4c7645b3d01015\"><code>73e62e6</code></a> Merge pull request <a href=\"https://redirect.github.com/actions/deploy-pages/issues/140\">#140</a> from actions/cut-v2</li>\n<li><a href=\"https://github.com/actions/deploy-pages/commit/b254707f5c3c910c335f3bcfd13a08eb14d18dca\"><code>b254707</code></a> Update the deployment API endpoints used by the api-client module</li>\n<li>See full diff in <a href=\"https://github.com/actions/deploy-pages/compare/v1...v2\">compare view</a></li>\n</ul>\n</details>\n<br />\n\n\n[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=actions/deploy-pages&package-manager=github_actions&previous-version=1&new-version=2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting ``@dependabot` rebase`.\n\n[//]: # (dependabot-automerge-start)\n[//]: # (dependabot-automerge-end)\n\n---\n\n<details>\n<summary>Dependabot commands and options</summary>\n<br />\n\nYou can trigger Dependabot actions by commenting on this PR:\n- ``@dependabot` rebase` will rebase this PR\n- ``@dependabot` recreate` will recreate this PR, overwriting any edits that have been made to it\n- ``@dependabot` merge` will merge this PR after your CI passes on it\n- ``@dependabot` squash and merge` will squash and merge this PR after your CI passes on it\n- ``@dependabot` cancel merge` will cancel a previously requested merge and block automerging\n- ``@dependabot` reopen` will reopen this PR if it is closed\n- ``@dependabot` close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n- ``@dependabot` ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n- ``@dependabot` ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n- ``@dependabot` ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n\n\n</details>\n\n59: Update syn requirement from 1 to 2 r=mbrobbel a=dependabot[bot]\n\nUpdates the requirements on [syn](https://github.com/dtolnay/syn) to permit the latest version.\n<details>\n<summary>Commits</summary>\n<ul>\n<li><a href=\"https://github.com/dtolnay/syn/commit/25def51081b68538547f34a3494744a807be4203\"><code>25def51</code></a> Release 2.0.3</li>\n<li><a href=\"https://github.com/dtolnay/syn/commit/4f3803d2a936d42a3277e7bcd53efc777a4b13d5\"><code>4f3803d</code></a> Merge pull request <a href=\"https://redirect.github.com/dtolnay/syn/issues/1412\">#1412</a> from dtolnay/exprgroup</li>\n<li><a href=\"https://github.com/dtolnay/syn/commit/516a5b5fbce8bb5679e1e38dcc4480aaba3aa8db\"><code>516a5b5</code></a> Provide Expr::Group even with features=&quot;full&quot; off</li>\n<li><a href=\"https://github.com/dtolnay/syn/commit/cac5cc640700ace3af3eac52c672b04e49e390cf\"><code>cac5cc6</code></a> Release 2.0.2</li>\n<li><a href=\"https://github.com/dtolnay/syn/commit/8f826ef67b583dae63150fff970c0f8c24939cb7\"><code>8f826ef</code></a> Touch up spacing in example for parse_multi_with_leading_vert</li>\n<li><a href=\"https://github.com/dtolnay/syn/commit/fc58fcf9ed026d5a587d6938c2ef5c980735b1c2\"><code>fc58fcf</code></a> Fix typo in Stmt::Macro documentation</li>\n<li><a href=\"https://github.com/dtolnay/syn/commit/e29815224c5e738607503db2ed2dedab37b3f9e3\"><code>e298152</code></a> Release 2.0.1</li>\n<li><a href=\"https://github.com/dtolnay/syn/commit/b87a0a1d02984df4ccb2d2e725cde3134ef369a8\"><code>b87a0a1</code></a> Merge pull request <a href=\"https://redirect.github.com/dtolnay/syn/issues/1409\">#1409</a> from dtolnay/requiremeta</li>\n<li><a href=\"https://github.com/dtolnay/syn/commit/59dd7ccbf2a78809f95061952146af9ed7244b31\"><code>59dd7cc</code></a> Add methods on Meta for error reporting an incorrect kind of attribute</li>\n<li><a href=\"https://github.com/dtolnay/syn/commit/11c0b6c7add560d0b7a97ef0d95ab6005ff1d01b\"><code>11c0b6c</code></a> Build attribute parse errors using std::fmt system</li>\n<li>Additional commits viewable in <a href=\"https://github.com/dtolnay/syn/compare/1.0.0...2.0.3\">compare view</a></li>\n</ul>\n</details>\n<br />\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting ``@dependabot` rebase`.\n\n[//]: # (dependabot-automerge-start)\n[//]: # (dependabot-automerge-end)\n\n---\n\n<details>\n<summary>Dependabot commands and options</summary>\n<br />\n\nYou can trigger Dependabot actions by commenting on this PR:\n- ``@dependabot` rebase` will rebase this PR\n- ``@dependabot` recreate` will recreate this PR, overwriting any edits that have been made to it\n- ``@dependabot` merge` will merge this PR after your CI passes on it\n- ``@dependabot` squash and merge` will squash and merge this PR after your CI passes on it\n- ``@dependabot` cancel merge` will cancel a previously requested merge and block automerging\n- ``@dependabot` reopen` will reopen this PR if it is closed\n- ``@dependabot` close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n- ``@dependabot` ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n- ``@dependabot` ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n- ``@dependabot` ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n\n\n</details>\n\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2023-03-21T08:10:06Z",
+          "tree_id": "ecf2501bdc8766772736bb7e416fcfb9e9c71ffd",
+          "url": "https://github.com/mbrobbel/narrow/commit/db768b52a2c40920dd6b976277af9c174317fda9"
+        },
+        "date": 1679386529229,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 5961,
+            "range": "± 45",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 5935,
+            "range": "± 23",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 5945,
+            "range": "± 12",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 15537,
+            "range": "± 89",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 15538,
+            "range": "± 7",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 15539,
+            "range": "± 25",
             "unit": "ns/iter"
           }
         ]
