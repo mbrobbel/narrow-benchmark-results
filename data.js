@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679386529655,
+  "lastUpdate": 1680267228189,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -1319,6 +1319,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 15539,
             "range": "± 25",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "26634292+bors[bot]@users.noreply.github.com",
+            "name": "bors[bot]",
+            "username": "bors[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "65f518aad8060a5a033ab05f7fef9ebb13adffce",
+          "message": "Merge #54\n\n54: Add some flexibility to `Nullable` r=mbrobbel a=mbrobbel\n\nResult of trying different approaches for a `FixedSizeListArray` implementation.\n\nCo-authored-by: Matthijs Brobbel <m1brobbel@gmail.com>",
+          "timestamp": "2023-03-31T12:48:18Z",
+          "tree_id": "c7764771460dc8e98fd180ef5ec2385d0382e60c",
+          "url": "https://github.com/mbrobbel/narrow/commit/65f518aad8060a5a033ab05f7fef9ebb13adffce"
+        },
+        "date": 1680267227809,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 8766,
+            "range": "± 30",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 8747,
+            "range": "± 61",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 8744,
+            "range": "± 12",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 15679,
+            "range": "± 128",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 15687,
+            "range": "± 56",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 15673,
+            "range": "± 97",
             "unit": "ns/iter"
           }
         ]
