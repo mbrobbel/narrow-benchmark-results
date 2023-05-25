@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680267228189,
+  "lastUpdate": 1685007065192,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -1379,6 +1379,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 15673,
             "range": "± 97",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "26634292+bors[bot]@users.noreply.github.com",
+            "name": "bors[bot]",
+            "username": "bors[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "35b199cc35233f93829404ed6cb85aacf987f324",
+          "message": "Merge #60\n\n60: Update criterion requirement from 0.4 to 0.5 r=mbrobbel a=dependabot[bot]\n\nUpdates the requirements on [criterion](https://github.com/bheisler/criterion.rs) to permit the latest version.\n<details>\n<summary>Changelog</summary>\n<p><em>Sourced from <a href=\"https://github.com/bheisler/criterion.rs/blob/master/CHANGELOG.md\">criterion's changelog</a>.</em></p>\n<blockquote>\n<h2>[0.5.0] - 2023-05-23</h2>\n<h3>Changed</h3>\n<ul>\n<li>Replaced lazy_static dependency with once_cell</li>\n<li>Improved documentation of the <code>html_reports</code> feature</li>\n<li>Replaced atty dependency with is-terminal</li>\n<li>MSRV bumped to 1.64</li>\n<li>Upgraded clap dependency to v4</li>\n<li>Upgraded tempfile dependency to v3.5.0</li>\n</ul>\n<h3>Fixed</h3>\n<ul>\n<li>Quick mode (<code>--quick</code>) no longer outputs 1ms for measured times over 5 seconds</li>\n<li>Documentation updates</li>\n</ul>\n<h2>[0.4.0] - 2022-09-10</h2>\n<h3>Removed</h3>\n<ul>\n<li>The <code>Criterion::can_plot</code> function has been removed.</li>\n<li>The <code>Criterion::bench_function_over_inputs</code> function has been removed.</li>\n<li>The <code>Criterion::bench_functions</code> function has been removed.</li>\n<li>The <code>Criterion::bench</code> function has been removed.</li>\n</ul>\n<h3>Changed</h3>\n<ul>\n<li>HTML report hidden behind non-default feature flag: 'html_reports'</li>\n<li>Standalone support (ie without cargo-criterion) feature flag: 'cargo_bench_support'</li>\n<li>MSRV bumped to 1.57</li>\n<li><code>rayon</code> and <code>plotters</code> are optional (and default) dependencies.</li>\n<li>Status messages ('warming up', 'analyzing', etc) are printed to stderr, benchmark results are printed to stdout.</li>\n<li>Accept subsecond durations for <code>--warm-up-time</code>, <code>--measurement-time</code> and <code>--profile-time</code>.</li>\n<li>Replaced serde_cbor with ciborium because the former is no longer maintained.</li>\n<li>Upgrade clap to v3 and regex to v1.5.</li>\n</ul>\n<h3>Added</h3>\n<ul>\n<li>A <code>--discard-baseline</code> flag for discarding rather than saving benchmark results.</li>\n<li>Formal support for benchmarking code compiled to web-assembly.</li>\n<li>A <code>--quiet</code> flag for printing just a single line per benchmark.</li>\n<li>A <code>Throughput::BytesDecimal</code> option for measuring throughput in bytes but printing them using\ndecimal units like kilobytes instead of binary units like kibibytes.</li>\n</ul>\n<h3>Fixed</h3>\n<ul>\n<li>When using <code>bench_with_input</code>, the input parameter will now be passed through <code>black_box</code> before\npassing it to the benchmark.</li>\n</ul>\n<h2>[0.3.6] - 2022-07-06</h2>\n<h3>Changed</h3>\n<ul>\n<li>MSRV bumped to 1.49</li>\n<li>Symbol for microseconds changed from ASCII 'us' to unicode 'µs'</li>\n</ul>\n<!-- raw HTML omitted -->\n</blockquote>\n<p>... (truncated)</p>\n</details>\n<details>\n<summary>Commits</summary>\n<ul>\n<li><a href=\"https://github.com/bheisler/criterion.rs/commit/4a560cb8d8b4cefc4819a6489f0ce0540663968d\"><code>4a560cb</code></a> release version 0.5 (<a href=\"https://redirect.github.com/bheisler/criterion.rs/issues/683\">#683</a>)</li>\n<li><a href=\"https://github.com/bheisler/criterion.rs/commit/3e2849ebf86e27507f783a20647a0fc81c6bfcc7\"><code>3e2849e</code></a> Post v0.4 CHANGELOG updates (<a href=\"https://redirect.github.com/bheisler/criterion.rs/issues/680\">#680</a>)</li>\n<li><a href=\"https://github.com/bheisler/criterion.rs/commit/637010e50d3819839cd45d9f5b281c169573416a\"><code>637010e</code></a> Bump clap to version 4 (<a href=\"https://redirect.github.com/bheisler/criterion.rs/issues/679\">#679</a>)</li>\n<li><a href=\"https://github.com/bheisler/criterion.rs/commit/39d7e2f9546981d87ae195fe7c68f778afdb66a4\"><code>39d7e2f</code></a> Update to tempfile 3.5 (<a href=\"https://redirect.github.com/bheisler/criterion.rs/issues/675\">#675</a>)</li>\n<li><a href=\"https://github.com/bheisler/criterion.rs/commit/8ab2752ccfeece50347c81866a4185f29fd978a2\"><code>8ab2752</code></a> Fix typo in known_limitations.md (<a href=\"https://redirect.github.com/bheisler/criterion.rs/issues/674\">#674</a>)</li>\n<li><a href=\"https://github.com/bheisler/criterion.rs/commit/a2112308ef8e3d8fe5a8da41ccb0fba3d5d460c4\"><code>a211230</code></a> chore: replace atty with is-terminal (<a href=\"https://redirect.github.com/bheisler/criterion.rs/issues/628\">#628</a>)</li>\n<li><a href=\"https://github.com/bheisler/criterion.rs/commit/a844eb226bb814e6a4e8b35b3b91c74f22ad535b\"><code>a844eb2</code></a> Bump MSRV to 1.60 for csv dependency (<a href=\"https://redirect.github.com/bheisler/criterion.rs/issues/665\">#665</a>)</li>\n<li><a href=\"https://github.com/bheisler/criterion.rs/commit/2f5360737807cbe90d149db6199783236f0ef634\"><code>2f53607</code></a> Use OR operator to specify multiple licenses (<a href=\"https://redirect.github.com/bheisler/criterion.rs/issues/643\">#643</a>)</li>\n<li><a href=\"https://github.com/bheisler/criterion.rs/commit/86dcd7d323799043c100dbf358409e986a872a11\"><code>86dcd7d</code></a> Fix bug where time over the maximum would be reported as 1ms in quick mode. (...</li>\n<li><a href=\"https://github.com/bheisler/criterion.rs/commit/2942aee124e433213f0e9b917bb730bcdc7df6f3\"><code>2942aee</code></a> Remove unnecessary <code>pub</code> from example code (<a href=\"https://redirect.github.com/bheisler/criterion.rs/issues/657\">#657</a>)</li>\n<li>Additional commits viewable in <a href=\"https://github.com/bheisler/criterion.rs/compare/0.4.0...0.5.0\">compare view</a></li>\n</ul>\n</details>\n<br />\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting ``@dependabot` rebase`.\n\n[//]: # (dependabot-automerge-start)\n[//]: # (dependabot-automerge-end)\n\n---\n\n<details>\n<summary>Dependabot commands and options</summary>\n<br />\n\nYou can trigger Dependabot actions by commenting on this PR:\n- ``@dependabot` rebase` will rebase this PR\n- ``@dependabot` recreate` will recreate this PR, overwriting any edits that have been made to it\n- ``@dependabot` merge` will merge this PR after your CI passes on it\n- ``@dependabot` squash and merge` will squash and merge this PR after your CI passes on it\n- ``@dependabot` cancel merge` will cancel a previously requested merge and block automerging\n- ``@dependabot` reopen` will reopen this PR if it is closed\n- ``@dependabot` close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n- ``@dependabot` ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n- ``@dependabot` ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n- ``@dependabot` ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n\n\n</details>\n\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Matthijs Brobbel <m1brobbel@gmail.com>",
+          "timestamp": "2023-05-25T09:25:58Z",
+          "tree_id": "77c5e9fbe7c0f23831bdcd5579a144ea93f5657d",
+          "url": "https://github.com/mbrobbel/narrow/commit/35b199cc35233f93829404ed6cb85aacf987f324"
+        },
+        "date": 1685007064506,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 7305,
+            "range": "± 199",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 7280,
+            "range": "± 3",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 7282,
+            "range": "± 8",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 13086,
+            "range": "± 7",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 13069,
+            "range": "± 5",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 13086,
+            "range": "± 6",
             "unit": "ns/iter"
           }
         ]
