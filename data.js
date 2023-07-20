@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685007065192,
+  "lastUpdate": 1689853537357,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -1439,6 +1439,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 13086,
             "range": "± 6",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "26634292+bors[bot]@users.noreply.github.com",
+            "name": "bors[bot]",
+            "username": "bors[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "234bbc5f7a59a9d6956127a3034594aa4e38804d",
+          "message": "Merge #61\n\n61: Bump actions/upload-pages-artifact from 1 to 2 r=mbrobbel a=dependabot[bot]\n\nBumps [actions/upload-pages-artifact](https://github.com/actions/upload-pages-artifact) from 1 to 2.\n<details>\n<summary>Release notes</summary>\n<p><em>Sourced from <a href=\"https://github.com/actions/upload-pages-artifact/releases\">actions/upload-pages-artifact's releases</a>.</em></p>\n<blockquote>\n<h2>v2.0.0</h2>\n<h1>Changelog</h1>\n<ul>\n<li>:warning: <strong>BREAKING CHANGE:</strong> Remove built-in <code>chmod</code> commands for <code>v2</code> <a href=\"https://github.com/JamesMGreene\"><code>`@​JamesMGreene</code></a>` (<a href=\"https://redirect.github.com/actions/upload-pages-artifact/issues/69\">#69</a>)</li>\n<li>Update README for <code>v2</code> <a href=\"https://github.com/JamesMGreene\"><code>`@​JamesMGreene</code></a>` (<a href=\"https://redirect.github.com/actions/upload-pages-artifact/issues/70\">#70</a>)</li>\n</ul>\n<p>See details of <a href=\"https://github.com/actions/upload-pages-artifact/compare/v1.0.10...v2.0.0\">all code changes</a> since previous release.</p>\n<h2>v1.0.10</h2>\n<h1>Changelog</h1>\n<ul>\n<li>readme: fix/improve note about permissions <a href=\"https://github.com/tshepang\"><code>`@​tshepang</code></a>` (<a href=\"https://redirect.github.com/actions/upload-pages-artifact/issues/65\">#65</a>)</li>\n<li>Revert <code>chmod</code> removal for <code>v1</code> <a href=\"https://github.com/JamesMGreene\"><code>`@​JamesMGreene</code></a>` (<a href=\"https://redirect.github.com/actions/upload-pages-artifact/issues/68\">#68</a>)</li>\n<li>Add file perms handling <a href=\"https://github.com/tsusdere\"><code>`@​tsusdere</code></a>` (<a href=\"https://redirect.github.com/actions/upload-pages-artifact/issues/64\">#64</a>)</li>\n</ul>\n<p>See details of <a href=\"https://github.com/actions/upload-pages-artifact/compare/v1.0.9...v1.0.10\">all code changes</a> since previous release.</p>\n<h2>v1.0.9</h2>\n<p>Removed <code>chmod</code> as we moved towards trusting correct file permissions have been set. In the event this isn't the case then we raise an error in the action related to the file permissions.</p>\n<h2>v1.0.8</h2>\n<h1>Changelog</h1>\n<ul>\n<li>Fail if no artifact file is found to upload <a href=\"https://github.com/JamesMGreene\"><code>`@​JamesMGreene</code></a>` (<a href=\"https://redirect.github.com/actions/upload-pages-artifact/issues/55\">#55</a>)</li>\n<li>Fix link to releases in README <a href=\"https://github.com/waldyrious\"><code>`@​waldyrious</code></a>` (<a href=\"https://redirect.github.com/actions/upload-pages-artifact/issues/53\">#53</a>)</li>\n<li>Bump actions/publish-action from 0.2.1 to 0.2.2 <a href=\"https://github.com/dependabot\"><code>`@​dependabot</code></a>` (<a href=\"https://redirect.github.com/actions/upload-pages-artifact/issues/47\">#47</a>)</li>\n<li>Add Dependabot config for Actions usage updates <a href=\"https://github.com/JamesMGreene\"><code>`@​JamesMGreene</code></a>` (<a href=\"https://redirect.github.com/actions/upload-pages-artifact/issues/46\">#46</a>)</li>\n</ul>\n<p>See details of <a href=\"https://github.com/actions/upload-pages-artifact/compare/v1.0.7...v1.0.8\">all code changes</a> since previous release.</p>\n<h2>v1.0.7</h2>\n<h1>Changelog</h1>\n<ul>\n<li>Don't change file permissions of other files <a href=\"https://github.com/KyeRussell\"><code>`@​KyeRussell</code></a>` (<a href=\"https://redirect.github.com/actions/upload-pages-artifact/issues/44\">#44</a>)</li>\n</ul>\n<p>See details of <a href=\"https://github.com/actions/upload-pages-artifact/compare/v1.0.6...v1.0.7\">all code changes</a> since previous release.</p>\n<h2>v1.0.6</h2>\n<h1>Changelog</h1>\n<ul>\n<li>Customize artifact name <a href=\"https://github.com/yuradanyliuk\"><code>`@​yuradanyliuk</code></a>` (<a href=\"https://redirect.github.com/actions/upload-pages-artifact/issues/41\">#41</a>)</li>\n<li>Fix permissions <a href=\"https://github.com/yoannchaudet\"><code>`@​yoannchaudet</code></a>` (<a href=\"https://redirect.github.com/actions/upload-pages-artifact/issues/42\">#42</a>)</li>\n<li>Print warnings about changed file permissions in bulk <a href=\"https://github.com/TooManyBees\"><code>`@​TooManyBees</code></a>` (<a href=\"https://redirect.github.com/actions/upload-pages-artifact/issues/38\">#38</a>)</li>\n<li>Update to latest <code>actions/publish-action</code> <a href=\"https://github.com/JamesMGreene\"><code>`@​JamesMGreene</code></a>` (<a href=\"https://redirect.github.com/actions/upload-pages-artifact/issues/36\">#36</a>)</li>\n</ul>\n<p>See details of <a href=\"https://github.com/actions/upload-pages-artifact/compare/v1.0.5...v1.0.6\">all code changes</a> since previous release.</p>\n<h2>v1.0.5</h2>\n<h1>Changelog</h1>\n<!-- raw HTML omitted -->\n</blockquote>\n<p>... (truncated)</p>\n</details>\n<details>\n<summary>Commits</summary>\n<ul>\n<li><a href=\"https://github.com/actions/upload-pages-artifact/commit/a753861a5debcf57bf8b404356158c8e1e33150c\"><code>a753861</code></a> Merge pull request <a href=\"https://redirect.github.com/actions/upload-pages-artifact/issues/69\">#69</a> from actions/reapply-chmod-removal-for-v2</li>\n<li><a href=\"https://github.com/actions/upload-pages-artifact/commit/dca6bac0e5d658c10e82a0e89fa26dd05f9ef2e3\"><code>dca6bac</code></a> Merge branch 'main' into reapply-chmod-removal-for-v2</li>\n<li><a href=\"https://github.com/actions/upload-pages-artifact/commit/3138c054964e4f34b7f958dc2ae603b51877d906\"><code>3138c05</code></a> Merge pull request <a href=\"https://redirect.github.com/actions/upload-pages-artifact/issues/70\">#70</a> from actions/v2-docs-improvements</li>\n<li><a href=\"https://github.com/actions/upload-pages-artifact/commit/07f501f6a0ff8cef2d64e4037d704f79061a4bd5\"><code>07f501f</code></a> Update README for <code>v2</code></li>\n<li><a href=\"https://github.com/actions/upload-pages-artifact/commit/9c071e6bed590ca0b53a706c2d01ad1c39faf659\"><code>9c071e6</code></a> Reapply PR <a href=\"https://redirect.github.com/actions/upload-pages-artifact/issues/63\">#63</a> for v2</li>\n<li>See full diff in <a href=\"https://github.com/actions/upload-pages-artifact/compare/v1...v2\">compare view</a></li>\n</ul>\n</details>\n<br />\n\n\n[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=actions/upload-pages-artifact&package-manager=github_actions&previous-version=1&new-version=2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting ``@dependabot` rebase`.\n\n[//]: # (dependabot-automerge-start)\n[//]: # (dependabot-automerge-end)\n\n---\n\n<details>\n<summary>Dependabot commands and options</summary>\n<br />\n\nYou can trigger Dependabot actions by commenting on this PR:\n- ``@dependabot` rebase` will rebase this PR\n- ``@dependabot` recreate` will recreate this PR, overwriting any edits that have been made to it\n- ``@dependabot` merge` will merge this PR after your CI passes on it\n- ``@dependabot` squash and merge` will squash and merge this PR after your CI passes on it\n- ``@dependabot` cancel merge` will cancel a previously requested merge and block automerging\n- ``@dependabot` reopen` will reopen this PR if it is closed\n- ``@dependabot` close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n- ``@dependabot` ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n- ``@dependabot` ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n- ``@dependabot` ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n\n\n</details>\n\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Matthijs Brobbel <m1brobbel@gmail.com>",
+          "timestamp": "2023-07-20T11:40:19Z",
+          "tree_id": "20e1616106bf5fa4993edcdf0c09e6bda50dfc60",
+          "url": "https://github.com/mbrobbel/narrow/commit/234bbc5f7a59a9d6956127a3034594aa4e38804d"
+        },
+        "date": 1689853536718,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 5957,
+            "range": "± 60",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 5921,
+            "range": "± 2",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 5919,
+            "range": "± 3",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 15226,
+            "range": "± 14",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 15225,
+            "range": "± 7",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 15223,
+            "range": "± 16",
             "unit": "ns/iter"
           }
         ]
