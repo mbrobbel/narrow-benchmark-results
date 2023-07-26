@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690402206334,
+  "lastUpdate": 1690403061679,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -2339,6 +2339,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 25584,
             "range": "± 347",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "m1brobbel@gmail.com",
+            "name": "Matthijs Brobbel",
+            "username": "mbrobbel"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "36cf108527afa3631f5db727c6b501d7a8f364ab",
+          "message": "chore(ci): cancel release if changelog generation fails (#73)\n\nChangelog generation fails if there is no need to publish a new version,\r\nso we should cancel then.",
+          "timestamp": "2023-07-26T22:22:25+02:00",
+          "tree_id": "569a9a18992e5a9cdeb5edb5e33a63d65853f9c4",
+          "url": "https://github.com/mbrobbel/narrow/commit/36cf108527afa3631f5db727c6b501d7a8f364ab"
+        },
+        "date": 1690403061385,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 5996,
+            "range": "± 31",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 6057,
+            "range": "± 40",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 5987,
+            "range": "± 56",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 15557,
+            "range": "± 65",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 15556,
+            "range": "± 3",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 15558,
+            "range": "± 9",
             "unit": "ns/iter"
           }
         ]
