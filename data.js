@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690296202265,
+  "lastUpdate": 1690376216634,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -1559,6 +1559,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 15229,
             "range": "± 12",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "m1brobbel@gmail.com",
+            "name": "Matthijs Brobbel",
+            "username": "mbrobbel"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d03e780136616beac88ab0f01dd46d9c1ccec3ba",
+          "message": "chore(ci): remove bors (#63)\n\nBors is being deprecated so removing its config in this PR and preparing\r\nto automate releases via\r\n[cargo-smart-release](https://crates.io/crates/cargo-smart-release) +\r\n[conventional commits](https://www.conventionalcommits.org/en/v1.0.0/).",
+          "timestamp": "2023-07-26T14:54:07+02:00",
+          "tree_id": "432af34a7c1c3edf9c1fd73e4adeb8a2834e14a9",
+          "url": "https://github.com/mbrobbel/narrow/commit/d03e780136616beac88ab0f01dd46d9c1ccec3ba"
+        },
+        "date": 1690376216200,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 8339,
+            "range": "± 5",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 8310,
+            "range": "± 3",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 8313,
+            "range": "± 3",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 14555,
+            "range": "± 62",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 14564,
+            "range": "± 9",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 14565,
+            "range": "± 7",
             "unit": "ns/iter"
           }
         ]
