@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690376216634,
+  "lastUpdate": 1690383728749,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -1619,6 +1619,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 14565,
             "range": "± 7",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "m1brobbel@gmail.com",
+            "name": "Matthijs Brobbel",
+            "username": "mbrobbel"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9e12927d052f9835619ec8f8da4e1591dc3fd9d6",
+          "message": "chore(ci): update release workflow to use `cargo-smart-release` (#64)\n\nReplace the current release workflow that was based on pushing tags with\r\none that uses\r\n[cargo-smart-release](https://crates.io/crates/cargo-smart-release) on\r\npushes to main.",
+          "timestamp": "2023-07-26T16:59:39+02:00",
+          "tree_id": "f5875e63554c14b66396ff67b0a3c60377acf12f",
+          "url": "https://github.com/mbrobbel/narrow/commit/9e12927d052f9835619ec8f8da4e1591dc3fd9d6"
+        },
+        "date": 1690383728294,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 6868,
+            "range": "± 368",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 6813,
+            "range": "± 241",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 6799,
+            "range": "± 412",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 15576,
+            "range": "± 905",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 15604,
+            "range": "± 1016",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 15535,
+            "range": "± 711",
             "unit": "ns/iter"
           }
         ]
