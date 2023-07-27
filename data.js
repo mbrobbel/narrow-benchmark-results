@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690468746430,
+  "lastUpdate": 1690494949590,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -3419,6 +3419,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 20354,
             "range": "± 1078",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "m1brobbel@gmail.com",
+            "name": "Matthijs Brobbel",
+            "username": "mbrobbel"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9a48422f4a8de0f9b5d109ce44c4c9a14544116a",
+          "message": "fix(derive): `ArrayType` derive for tuple structs (#80)\n\n```rust\r\n#[derive(ArrayType, Default)]\r\nstruct Foo<'a>(u32, u16, &'a str);\r\n\r\n#[derive(ArrayType, Default)]\r\nstruct Bar<'a>(Foo<'a>);\r\n\r\n#[derive(ArrayType, Default)]\r\nstruct FooBar<'a, T>(Bar<'a>, T);\r\n\r\nlet input = [\r\n    FooBar(Bar(Foo(1, 2, \"n\")), false),\r\n    FooBar(Bar(Foo(1, 2, \"arrow\")), false),\r\n];\r\nlet array = input.into_iter().collect::<StructArray<FooBar<_>>>();\r\nassert_eq!(array.len(), 2);\r\n\r\nlet input = vec![\r\n    Some(vec![Some(FooBar(Bar(Foo(42, 0, \"!\"), 1234))]),\r\n    None,\r\n    Some(vec![None]),\r\n    Some(vec![None, None]),\r\n];\r\nlet array = input\r\n    .into_iter()\r\n    .collect::<VariableSizeListArray<StructArray<FooBar<_>, true>, true>>();\r\nassert_eq!(array.len(), 4);\r\n```",
+          "timestamp": "2023-07-27T23:53:14+02:00",
+          "tree_id": "45ad43f819fe14de9ffa6a48ee87a9e6f2c573e2",
+          "url": "https://github.com/mbrobbel/narrow/commit/9a48422f4a8de0f9b5d109ce44c4c9a14544116a"
+        },
+        "date": 1690494948880,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 10018,
+            "range": "± 38",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 10025,
+            "range": "± 14",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 9984,
+            "range": "± 101",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 25599,
+            "range": "± 29",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 25589,
+            "range": "± 19",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 25586,
+            "range": "± 18",
             "unit": "ns/iter"
           }
         ]
