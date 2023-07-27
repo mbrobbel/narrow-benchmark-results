@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690456119491,
+  "lastUpdate": 1690468611382,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -3299,6 +3299,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 14608,
             "range": "± 6",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "m1brobbel@gmail.com",
+            "name": "Matthijs Brobbel",
+            "username": "mbrobbel"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a7a3f79a98fc15879aabf677b17e12bb285ce57f",
+          "message": "fix(derive): `ArrayType` derive for unit structs (#79)\n\nAdd support to derive `ArrayType` for unit structs:\r\n```rust\r\n#[derive(ArrayType, Copy, Clone, Default)]\r\nstruct Foo;\r\n\r\nlet array = [Foo; 5].into_iter().collect::<StructArray<Foo>>();\r\nassert_eq!(array.len(), 5);\r\n\r\nlet array = [Some(Foo); 5].into_iter().collect::<StructArray<Foo, true>>();\r\nassert_eq!(array.len(), 5);\r\nassert!(array.all_valid());\r\n```",
+          "timestamp": "2023-07-27T16:34:34+02:00",
+          "tree_id": "b96b46983fb198905c22e6f92ba386fb8622bad8",
+          "url": "https://github.com/mbrobbel/narrow/commit/a7a3f79a98fc15879aabf677b17e12bb285ce57f"
+        },
+        "date": 1690468610882,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 8342,
+            "range": "± 3",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 8343,
+            "range": "± 4",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 8314,
+            "range": "± 24",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 14575,
+            "range": "± 11",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 14575,
+            "range": "± 5",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 14580,
+            "range": "± 70",
             "unit": "ns/iter"
           }
         ]
