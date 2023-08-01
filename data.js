@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690921812848,
+  "lastUpdate": 1690924090174,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -3719,6 +3719,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 14572,
             "range": "± 34",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "m1brobbel@gmail.com",
+            "name": "Matthijs Brobbel",
+            "username": "mbrobbel"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d4dd89b366e4dfa8a655c2fdf3d1d7c24fb4b8db",
+          "message": "chore(ci): fix Rust cache keys (#83)\n\nThe rustc version should be part of the cache key.",
+          "timestamp": "2023-08-01T23:05:38+02:00",
+          "tree_id": "c179da9974a0fc389c59351b8be5e57bf6eb886e",
+          "url": "https://github.com/mbrobbel/narrow/commit/d4dd89b366e4dfa8a655c2fdf3d1d7c24fb4b8db"
+        },
+        "date": 1690924089507,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 6240,
+            "range": "± 250",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 6332,
+            "range": "± 245",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 6367,
+            "range": "± 611",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 15630,
+            "range": "± 672",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 14915,
+            "range": "± 637",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 14830,
+            "range": "± 524",
             "unit": "ns/iter"
           }
         ]
