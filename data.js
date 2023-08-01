@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690537023930,
+  "lastUpdate": 1690921670859,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -3599,6 +3599,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 19041,
             "range": "± 85",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "m1brobbel@gmail.com",
+            "name": "Matthijs Brobbel",
+            "username": "mbrobbel"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8fb5f2f5b2559a5c77efc7193514befad815cddb",
+          "message": "fix(derive): `ArrayType` derive for named structs (#82)\n\n```rust\r\n#[derive(ArrayType, Default)]\r\nstruct Bar<T> {\r\n    a: u32,\r\n    b: Option<bool>,\r\n    c: T,\r\n}\r\n\r\nlet input = [\r\n    Some(Bar {\r\n        a: 1,\r\n        b: Some(false),\r\n        c: None,\r\n    }),\r\n    None,\r\n    Some(Bar {\r\n        a: 2,\r\n        b: None,\r\n        c: Some(()),\r\n    }),\r\n];\r\n\r\nlet array = input.into_iter().collect::<StructArray<Bar<_>, true>>();\r\nassert_eq!(array.len(), 3);\r\nassert_eq!(array.is_valid(0), Some(true));\r\nassert_eq!(array.is_null(1), Some(true));\r\nassert_eq!(array.is_valid(2), Some(true));\r\n\r\nlet int_array = &array.0.as_ref().a;\r\nassert_eq!(int_array.0.as_slice(), &[1, Default::default(), 2]);\r\n\r\nlet bool_array = &array.0.as_ref().b;\r\nassert_eq!(\r\n    bool_array.into_iter().collect::<Vec<_>>(),\r\n    &[Some(false), None, None]\r\n);\r\n\r\nlet null_array = &array.0.as_ref().c;\r\nassert_eq!(null_array.is_null(0), Some(true));\r\nassert_eq!(null_array.is_null(1), Some(true));\r\nassert_eq!(null_array.is_valid(2), Some(true));\r\n\r\nlet input = [\r\n    Some(Bar {\r\n        a: 1,\r\n        b: None,\r\n        c: false,\r\n    }),\r\n    None,\r\n];\r\nlet array = input.into_iter().collect::<StructArray<Bar<_>, true>>();\r\nassert_eq!(array.len(), 2);\r\n```",
+          "timestamp": "2023-08-01T22:25:13+02:00",
+          "tree_id": "ab933094e7b6147e10e3ab0b435304fd4e8bb278",
+          "url": "https://github.com/mbrobbel/narrow/commit/8fb5f2f5b2559a5c77efc7193514befad815cddb"
+        },
+        "date": 1690921670295,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 8344,
+            "range": "± 33",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 8347,
+            "range": "± 4",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 8317,
+            "range": "± 27",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 21286,
+            "range": "± 13",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 21293,
+            "range": "± 55",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 21292,
+            "range": "± 10",
             "unit": "ns/iter"
           }
         ]
