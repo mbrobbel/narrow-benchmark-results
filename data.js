@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690924090174,
+  "lastUpdate": 1691001501876,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -3779,6 +3779,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 14830,
             "range": "± 524",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "m1brobbel@gmail.com",
+            "name": "Matthijs Brobbel",
+            "username": "mbrobbel"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "10aacdf0ee143770f9f0c09134e6b7e865358fd8",
+          "message": "fix: offset extend impl for nullable data (#98)\n\nFor nullable data it should also flatten the option iterator.",
+          "timestamp": "2023-08-02T20:35:48+02:00",
+          "tree_id": "913ae35c774a3174004575cffdf0f10246a1d367",
+          "url": "https://github.com/mbrobbel/narrow/commit/10aacdf0ee143770f9f0c09134e6b7e865358fd8"
+        },
+        "date": 1691001501238,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 9957,
+            "range": "± 131",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 10004,
+            "range": "± 74",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 10030,
+            "range": "± 99",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 17462,
+            "range": "± 142",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 17422,
+            "range": "± 157",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 17467,
+            "range": "± 124",
             "unit": "ns/iter"
           }
         ]
