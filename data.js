@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691411643589,
+  "lastUpdate": 1691442116849,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -3899,6 +3899,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 14562,
             "range": "± 9",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "m1brobbel@gmail.com",
+            "name": "Matthijs Brobbel",
+            "username": "mbrobbel"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bfc13993867f3e2bb496cd28e850c2cca64746e2",
+          "message": "feat: add non-nullable to nullable conversion (#102)\n\nCloses #101.",
+          "timestamp": "2023-08-07T22:59:35+02:00",
+          "tree_id": "70a69158eac0009efcaf2badea4489edb7df0e23",
+          "url": "https://github.com/mbrobbel/narrow/commit/bfc13993867f3e2bb496cd28e850c2cca64746e2"
+        },
+        "date": 1691442116338,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 8802,
+            "range": "± 300",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 8782,
+            "range": "± 365",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 8771,
+            "range": "± 359",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 15571,
+            "range": "± 654",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 15457,
+            "range": "± 850",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 15411,
+            "range": "± 628",
             "unit": "ns/iter"
           }
         ]
