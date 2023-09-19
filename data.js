@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695134831762,
+  "lastUpdate": 1695135154777,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -4439,6 +4439,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 21289,
             "range": "± 26",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "m1brobbel@gmail.com",
+            "name": "Matthijs Brobbel",
+            "username": "mbrobbel"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0710f42085c2d2c3412a37b0e49bb94ce00a77da",
+          "message": "chore(deps): revert codecov/codecov-action from 4 to 3 (#105)\n\nIt seems the tag was removed?\r\n\r\n```console\r\nError: Unable to resolve action `codecov/codecov-action@v4`, unable to find version `v4`\r\n```\r\n\r\nReverting.",
+          "timestamp": "2023-09-19T16:50:17+02:00",
+          "tree_id": "ea89e6bbd1e4af1fe4bca204edf7e11f7bbc5ba4",
+          "url": "https://github.com/mbrobbel/narrow/commit/0710f42085c2d2c3412a37b0e49bb94ce00a77da"
+        },
+        "date": 1695135154045,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 8347,
+            "range": "± 58",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 8344,
+            "range": "± 4",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 8324,
+            "range": "± 5",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 21289,
+            "range": "± 164",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 21281,
+            "range": "± 63",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 21291,
+            "range": "± 9",
             "unit": "ns/iter"
           }
         ]
