@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695135154777,
+  "lastUpdate": 1696583222664,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -4499,6 +4499,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 21291,
             "range": "± 9",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "m1brobbel@gmail.com",
+            "name": "Matthijs Brobbel",
+            "username": "mbrobbel"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2591773eefe84f87086991ba1ecd136727510d93",
+          "message": "chore(deps): update proc-macro-crate requirement from 1.3.1 to 2.0.0 (#106)\n\nUpdates the requirements on\r\n[proc-macro-crate](https://github.com/bkchr/proc-macro-crate) to permit\r\nthe latest version.\r\n<details>\r\n<summary>Release notes</summary>\r\n<p><em>Sourced from <a\r\nhref=\"https://github.com/bkchr/proc-macro-crate/releases\">proc-macro-crate's\r\nreleases</a>.</em></p>\r\n<blockquote>\r\n<h2>v2.0.0</h2>\r\n<h2>What's Changed</h2>\r\n<ul>\r\n<li>Release 2.0.0 by <a\r\nhref=\"https://github.com/bkchr\"><code>@​bkchr</code></a> in <a\r\nhref=\"https://redirect.github.com/bkchr/proc-macro-crate/pull/39\">bkchr/proc-macro-crate#39</a></li>\r\n</ul>\r\n<p><strong>Full Changelog</strong>: <a\r\nhref=\"https://github.com/bkchr/proc-macro-crate/compare/v1.3.1...v2.0.0\">https://github.com/bkchr/proc-macro-crate/compare/v1.3.1...v2.0.0</a></p>\r\n</blockquote>\r\n</details>\r\n<details>\r\n<summary>Commits</summary>\r\n<ul>\r\n<li><a\r\nhref=\"https://github.com/bkchr/proc-macro-crate/commit/cc100ed2bc1ac9bb81812fd435a43e2ef023f355\"><code>cc100ed</code></a>\r\nMerge pull request <a\r\nhref=\"https://redirect.github.com/bkchr/proc-macro-crate/issues/39\">#39</a>\r\nfrom bkchr/bkchr-2.0.0</li>\r\n<li><a\r\nhref=\"https://github.com/bkchr/proc-macro-crate/commit/39a7c1844fc4d73ef397a7e8d9419f1f3381aa44\"><code>39a7c18</code></a>\r\nRelease 2.0.0</li>\r\n<li>See full diff in <a\r\nhref=\"https://github.com/bkchr/proc-macro-crate/compare/v1.3.1...v2.0.0\">compare\r\nview</a></li>\r\n</ul>\r\n</details>\r\n<br />\r\n\r\n\r\nDependabot will resolve any conflicts with this PR as long as you don't\r\nalter it yourself. You can also trigger a rebase manually by commenting\r\n`@dependabot rebase`.\r\n\r\n[//]: # (dependabot-automerge-start)\r\n[//]: # (dependabot-automerge-end)\r\n\r\n---\r\n\r\n<details>\r\n<summary>Dependabot commands and options</summary>\r\n<br />\r\n\r\nYou can trigger Dependabot actions by commenting on this PR:\r\n- `@dependabot rebase` will rebase this PR\r\n- `@dependabot recreate` will recreate this PR, overwriting any edits\r\nthat have been made to it\r\n- `@dependabot merge` will merge this PR after your CI passes on it\r\n- `@dependabot squash and merge` will squash and merge this PR after\r\nyour CI passes on it\r\n- `@dependabot cancel merge` will cancel a previously requested merge\r\nand block automerging\r\n- `@dependabot reopen` will reopen this PR if it is closed\r\n- `@dependabot close` will close this PR and stop Dependabot recreating\r\nit. You can achieve the same result by closing it manually\r\n- `@dependabot show <dependency name> ignore conditions` will show all\r\nof the ignore conditions of the specified dependency\r\n- `@dependabot ignore this major version` will close this PR and stop\r\nDependabot creating any more for this major version (unless you reopen\r\nthe PR or upgrade to it yourself)\r\n- `@dependabot ignore this minor version` will close this PR and stop\r\nDependabot creating any more for this minor version (unless you reopen\r\nthe PR or upgrade to it yourself)\r\n- `@dependabot ignore this dependency` will close this PR and stop\r\nDependabot creating any more for this dependency (unless you reopen the\r\nPR or upgrade to it yourself)\r\n\r\n\r\n</details>",
+          "timestamp": "2023-10-06T11:04:09+02:00",
+          "tree_id": "ab344892d7d582040041f3aca1b33104286a2159",
+          "url": "https://github.com/mbrobbel/narrow/commit/2591773eefe84f87086991ba1ecd136727510d93"
+        },
+        "date": 1696583221910,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 8344,
+            "range": "± 84",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 8313,
+            "range": "± 3",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 8313,
+            "range": "± 33",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 13254,
+            "range": "± 52",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 13275,
+            "range": "± 55",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 13271,
+            "range": "± 59",
             "unit": "ns/iter"
           }
         ]
