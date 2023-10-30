@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1698411484956,
+  "lastUpdate": 1698681229412,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -4679,6 +4679,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 14412,
             "range": "± 79",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "m1brobbel@gmail.com",
+            "name": "Matthijs Brobbel",
+            "username": "mbrobbel"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7db53c26d3b6a9666f1dc1a91ee298384c273a02",
+          "message": "feat!: add item associated type to `Unit` trait (#108)\n\nTo support using `NullArray` for unit variants of enums in\r\n`UnionArrays`, this adds an `Item` associated type to the `Unit` trait,\r\nwhich converts into the type implementing `Unit`, allowing code\r\ngeneration of types for unit enum variants which implement `Unit` and\r\nconvert to instances of the variants of the original enum.",
+          "timestamp": "2023-10-30T16:51:28+01:00",
+          "tree_id": "f191d11c696f6a7cda99e2f4e4361b8c8a3dedb5",
+          "url": "https://github.com/mbrobbel/narrow/commit/7db53c26d3b6a9666f1dc1a91ee298384c273a02"
+        },
+        "date": 1698681229033,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 8350,
+            "range": "± 104",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 8344,
+            "range": "± 3",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 8312,
+            "range": "± 4",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 21329,
+            "range": "± 9",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 21328,
+            "range": "± 10",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 21329,
+            "range": "± 16",
             "unit": "ns/iter"
           }
         ]
