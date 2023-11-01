@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1698681229412,
+  "lastUpdate": 1698852429426,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -4739,6 +4739,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 21329,
             "range": "± 16",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "m1brobbel@gmail.com",
+            "name": "Matthijs Brobbel",
+            "username": "mbrobbel"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3b60bbe4dadd67917e07ee22f2cadc91be47e0fa",
+          "message": "feat!: add `OffsetElement` and `UnionType` to the `Array` GAT of `ArrayType` (#109)\n\nThis adds generics for offset element type (`i32` or `i64`) and union\r\nlayout (sparse or dense) to the `Array` type constructor of the\r\n`ArrayType` trait.\r\n\r\nThis is not ideal without default types for the generics in a generic\r\nassociated type, but the alternatives are worse (making `ArrayType`\r\ngeneric over these types with defaults).",
+          "timestamp": "2023-11-01T16:24:41+01:00",
+          "tree_id": "232be73d47836880ab5f6abb2b58946efd9e4768",
+          "url": "https://github.com/mbrobbel/narrow/commit/3b60bbe4dadd67917e07ee22f2cadc91be47e0fa"
+        },
+        "date": 1698852428750,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 8352,
+            "range": "± 13",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 8343,
+            "range": "± 4",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 8310,
+            "range": "± 4",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 21269,
+            "range": "± 7",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 21275,
+            "range": "± 10",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 21279,
+            "range": "± 27",
             "unit": "ns/iter"
           }
         ]
