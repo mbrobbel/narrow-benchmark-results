@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1698852429426,
+  "lastUpdate": 1701864899406,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -4799,6 +4799,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 21279,
             "range": "± 27",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "m1brobbel@gmail.com",
+            "name": "Matthijs Brobbel",
+            "username": "mbrobbel"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "36b2343fb7b95d38e71147031b700c97e273df18",
+          "message": "feat!: add `FixedSizeListArray` (#110)\n\nCloses #87.\r\n\r\nThis is a breaking change because `[T: FixedSize; N]` no longer has an\r\n`ArrayType` implementation with `FixedSizePrimitive`, but instead it\r\nuses `FixedSizeList`, and the bound is `ArrayType` instead of\r\n`FixedSize`.",
+          "timestamp": "2023-12-06T13:12:34+01:00",
+          "tree_id": "a8446604f70b11fdfec80a9ccc1865508905ebff",
+          "url": "https://github.com/mbrobbel/narrow/commit/36b2343fb7b95d38e71147031b700c97e273df18"
+        },
+        "date": 1701864899116,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 3942,
+            "range": "± 192",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 3921,
+            "range": "± 37",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 3919,
+            "range": "± 218",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 11002,
+            "range": "± 32",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 11003,
+            "range": "± 29",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 11006,
+            "range": "± 49",
             "unit": "ns/iter"
           }
         ]
