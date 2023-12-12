@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702408475301,
+  "lastUpdate": 1702409296772,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -4919,6 +4919,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 11024,
             "range": "± 189",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "m1brobbel@gmail.com",
+            "name": "Matthijs Brobbel",
+            "username": "mbrobbel"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6cd78900338c22778f99a87a98577bf520a9e483",
+          "message": "chore: add `Cargo.lock` file (#113)\n\nFollowing the updated recommendations about lock files.",
+          "timestamp": "2023-12-12T20:26:09+01:00",
+          "tree_id": "66af1d3c9af264229be84549e877951d0299fc35",
+          "url": "https://github.com/mbrobbel/narrow/commit/6cd78900338c22778f99a87a98577bf520a9e483"
+        },
+        "date": 1702409296188,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 3928,
+            "range": "± 218",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 3932,
+            "range": "± 214",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 3939,
+            "range": "± 99",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 11494,
+            "range": "± 35",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 11493,
+            "range": "± 123",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 11494,
+            "range": "± 36",
             "unit": "ns/iter"
           }
         ]
