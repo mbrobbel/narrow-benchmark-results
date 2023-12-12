@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702409296772,
+  "lastUpdate": 1702410447148,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -4979,6 +4979,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 11494,
             "range": "± 36",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "m1brobbel@gmail.com",
+            "name": "Matthijs Brobbel",
+            "username": "mbrobbel"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ba85bf4bd74e02051be94dc188d8d5852fb1103a",
+          "message": "chore(deps): bump actions/configure-pages from 3 to 4 (#111)\n\nBumps\r\n[actions/configure-pages](https://github.com/actions/configure-pages)\r\nfrom 3 to 4.\r\n<details>\r\n<summary>Release notes</summary>\r\n<p><em>Sourced from <a\r\nhref=\"https://github.com/actions/configure-pages/releases\">actions/configure-pages's\r\nreleases</a>.</em></p>\r\n<blockquote>\r\n<h2>v4.0.0</h2>\r\n<h1>Changelog</h1>\r\n<ul>\r\n<li>Use a centralized <code>.node-version</code> file <a\r\nhref=\"https://github.com/JamesMGreene\"><code>@​JamesMGreene</code></a>\r\n(<a\r\nhref=\"https://redirect.github.com/actions/configure-pages/issues/117\">#117</a>)</li>\r\n<li>Update action to node20 <a\r\nhref=\"https://github.com/takost\"><code>@​takost</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/configure-pages/issues/108\">#108</a>)</li>\r\n</ul>\r\n<p>See details of <a\r\nhref=\"https://github.com/actions/configure-pages/compare/v3.0.7...v4.0.0\">all\r\ncode changes</a> since previous release.</p>\r\n<h2>v3.0.7</h2>\r\n<h1>Changelog</h1>\r\n<ul>\r\n<li>Update Actions workflows to use Node 20.x <a\r\nhref=\"https://github.com/JamesMGreene\"><code>@​JamesMGreene</code></a>\r\n(<a\r\nhref=\"https://redirect.github.com/actions/configure-pages/issues/116\">#116</a>)</li>\r\n<li>Bump eslint-plugin-github from 4.7.0 to 4.10.1 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/configure-pages/issues/114\">#114</a>)</li>\r\n<li>Bump word-wrap from 1.2.3 to 1.2.5 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/configure-pages/issues/113\">#113</a>)</li>\r\n<li>Bump jest from 29.5.0 to 29.7.0 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/configure-pages/issues/112\">#112</a>)</li>\r\n<li>Bump <code>@​babel/traverse</code> from 7.21.3 to 7.23.5 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/configure-pages/issues/110\">#110</a>)</li>\r\n<li>Bump espree from 9.5.2 to 9.6.1 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/configure-pages/issues/111\">#111</a>)</li>\r\n<li>Bump eslint from 8.38.0 to 8.40.0 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/configure-pages/issues/93\">#93</a>)</li>\r\n</ul>\r\n<p>See details of <a\r\nhref=\"https://github.com/actions/configure-pages/compare/v3.0.6...v3.0.7\">all\r\ncode changes</a> since previous release.</p>\r\n<h2>v3.0.6</h2>\r\n<h1>Changelog</h1>\r\n<ul>\r\n<li>Bump eslint from 8.36.0 to 8.38.0 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/configure-pages/issues/89\">#89</a>)</li>\r\n<li>Bump eslint-plugin-github from 4.6.1 to 4.7.0 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/configure-pages/issues/86\">#86</a>)</li>\r\n<li>Bump eslint-config-prettier from 8.7.0 to 8.8.0 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/configure-pages/issues/85\">#85</a>)</li>\r\n<li>Bump prettier from 2.8.6 to 2.8.7 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/configure-pages/issues/84\">#84</a>)</li>\r\n<li>Make &quot;Get Pages failed&quot; error message more helpful <a\r\nhref=\"https://github.com/WofWca\"><code>@​WofWca</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/configure-pages/issues/83\">#83</a>)</li>\r\n<li>Bump prettier from 2.8.4 to 2.8.6 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/configure-pages/issues/81\">#81</a>)</li>\r\n<li>Add a CodeQL security scanning workflow <a\r\nhref=\"https://github.com/JamesMGreene\"><code>@​JamesMGreene</code></a>\r\n(<a\r\nhref=\"https://redirect.github.com/actions/configure-pages/issues/68\">#68</a>)</li>\r\n</ul>\r\n<p>See details of <a\r\nhref=\"https://github.com/actions/configure-pages/compare/v3.0.5...v3.0.6\">all\r\ncode changes</a> since previous release.</p>\r\n<h2>v3.0.5</h2>\r\n<h1>Changelog</h1>\r\n<ul>\r\n<li>Bump jest from 29.4.3 to 29.5.0 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/configure-pages/issues/77\">#77</a>)</li>\r\n<li>Bump eslint from 8.35.0 to 8.36.0 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/configure-pages/issues/76\">#76</a>)</li>\r\n<li>Bump espree from 9.4.1 to 9.5.0 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/configure-pages/issues/78\">#78</a>)</li>\r\n<li>Bump eslint-config-prettier from 8.6.0 to 8.7.0 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/configure-pages/issues/75\">#75</a>)</li>\r\n<li>Bump eslint from 8.34.0 to 8.35.0 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/configure-pages/issues/73\">#73</a>)</li>\r\n<li>Bump jest from 29.4.1 to 29.4.3 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/configure-pages/issues/72\">#72</a>)</li>\r\n<li>Bump eslint-plugin-github from 4.6.0 to 4.6.1 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/configure-pages/issues/71\">#71</a>)</li>\r\n<li>Amend token coverage for enablement in Action metadata file <a\r\nhref=\"https://github.com/JamesMGreene\"><code>@​JamesMGreene</code></a>\r\n(<a\r\nhref=\"https://redirect.github.com/actions/configure-pages/issues/51\">#51</a>)</li>\r\n</ul>\r\n<p>See details of <a\r\nhref=\"https://github.com/actions/configure-pages/compare/v3.0.4...v3.0.5\">all\r\ncode changes</a> since previous release.</p>\r\n<h2>v3.0.4</h2>\r\n<h1>Changelog</h1>\r\n<!-- raw HTML omitted -->\r\n</blockquote>\r\n<p>... (truncated)</p>\r\n</details>\r\n<details>\r\n<summary>Commits</summary>\r\n<ul>\r\n<li><a\r\nhref=\"https://github.com/actions/configure-pages/commit/1f0c5cde4bc74cd7e1254d0cb4de8d49e9068c7d\"><code>1f0c5cd</code></a>\r\nMerge pull request <a\r\nhref=\"https://redirect.github.com/actions/configure-pages/issues/117\">#117</a>\r\nfrom actions/use-node-version-file</li>\r\n<li><a\r\nhref=\"https://github.com/actions/configure-pages/commit/591bb0deb9c3f137206bbbabf9b07b6161afc6ba\"><code>591bb0d</code></a>\r\nMerge branch 'main' into use-node-version-file</li>\r\n<li><a\r\nhref=\"https://github.com/actions/configure-pages/commit/1465f012e6e7718cdf7bc61874e613e1e67ed84f\"><code>1465f01</code></a>\r\nMerge pull request <a\r\nhref=\"https://redirect.github.com/actions/configure-pages/issues/108\">#108</a>\r\nfrom takost/update-to-node-20</li>\r\n<li><a\r\nhref=\"https://github.com/actions/configure-pages/commit/f2fc55313325af8b5ee6da799ed072a114df7416\"><code>f2fc553</code></a>\r\nMerge branch 'main' into update-to-node-20</li>\r\n<li><a\r\nhref=\"https://github.com/actions/configure-pages/commit/373694e352893db5ef78de6f321e8d55c860f7b6\"><code>373694e</code></a>\r\nUse a centralized .node-version file</li>\r\n<li><a\r\nhref=\"https://github.com/actions/configure-pages/commit/3a014131e99a7bf2daf896787a8f92789126d038\"><code>3a01413</code></a>\r\nUpdate action to node20</li>\r\n<li>See full diff in <a\r\nhref=\"https://github.com/actions/configure-pages/compare/v3...v4\">compare\r\nview</a></li>\r\n</ul>\r\n</details>\r\n<br />\r\n\r\n\r\n[![Dependabot compatibility\r\nscore](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=actions/configure-pages&package-manager=github_actions&previous-version=3&new-version=4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)\r\n\r\nDependabot will resolve any conflicts with this PR as long as you don't\r\nalter it yourself. You can also trigger a rebase manually by commenting\r\n`@dependabot rebase`.\r\n\r\n[//]: # (dependabot-automerge-start)\r\n[//]: # (dependabot-automerge-end)\r\n\r\n---\r\n\r\n<details>\r\n<summary>Dependabot commands and options</summary>\r\n<br />\r\n\r\nYou can trigger Dependabot actions by commenting on this PR:\r\n- `@dependabot rebase` will rebase this PR\r\n- `@dependabot recreate` will recreate this PR, overwriting any edits\r\nthat have been made to it\r\n- `@dependabot merge` will merge this PR after your CI passes on it\r\n- `@dependabot squash and merge` will squash and merge this PR after\r\nyour CI passes on it\r\n- `@dependabot cancel merge` will cancel a previously requested merge\r\nand block automerging\r\n- `@dependabot reopen` will reopen this PR if it is closed\r\n- `@dependabot close` will close this PR and stop Dependabot recreating\r\nit. You can achieve the same result by closing it manually\r\n- `@dependabot show <dependency name> ignore conditions` will show all\r\nof the ignore conditions of the specified dependency\r\n- `@dependabot ignore this major version` will close this PR and stop\r\nDependabot creating any more for this major version (unless you reopen\r\nthe PR or upgrade to it yourself)\r\n- `@dependabot ignore this minor version` will close this PR and stop\r\nDependabot creating any more for this minor version (unless you reopen\r\nthe PR or upgrade to it yourself)\r\n- `@dependabot ignore this dependency` will close this PR and stop\r\nDependabot creating any more for this dependency (unless you reopen the\r\nPR or upgrade to it yourself)\r\n\r\n\r\n</details>",
+          "timestamp": "2023-12-12T20:45:27+01:00",
+          "tree_id": "89094cb629e99a76baa91b1f3a21998cb87928fc",
+          "url": "https://github.com/mbrobbel/narrow/commit/ba85bf4bd74e02051be94dc188d8d5852fb1103a"
+        },
+        "date": 1702410446588,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 3943,
+            "range": "± 99",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 3940,
+            "range": "± 13",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 3950,
+            "range": "± 9",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 11498,
+            "range": "± 245",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 11495,
+            "range": "± 45",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 11493,
+            "range": "± 67",
             "unit": "ns/iter"
           }
         ]
