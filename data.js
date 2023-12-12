@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702410447148,
+  "lastUpdate": 1702410652509,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -5039,6 +5039,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 11493,
             "range": "± 67",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "m1brobbel@gmail.com",
+            "name": "Matthijs Brobbel",
+            "username": "mbrobbel"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2dcccf017bb55717f1566ecfc78e4b5df9ae3d21",
+          "message": "chore(deps): bump actions/deploy-pages from 2 to 3 (#112)\n\nBumps [actions/deploy-pages](https://github.com/actions/deploy-pages)\r\nfrom 2 to 3.\r\n<details>\r\n<summary>Release notes</summary>\r\n<p><em>Sourced from <a\r\nhref=\"https://github.com/actions/deploy-pages/releases\">actions/deploy-pages's\r\nreleases</a>.</em></p>\r\n<blockquote>\r\n<h2>v3.0.0</h2>\r\n<h1>Changelog</h1>\r\n<ul>\r\n<li>Update action to node20 <a\r\nhref=\"https://github.com/takost\"><code>@​takost</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/deploy-pages/issues/256\">#256</a>)</li>\r\n</ul>\r\n<hr />\r\n<p>See details of <a\r\nhref=\"https://github.com/actions/deploy-pages/compare/v2.0.5...v3.0.0\">all\r\ncode changes</a> since previous release.</p>\r\n<p>:warning: For use with products other than GitHub.com, such as GitHub\r\nEnterprise Server, please consult the <a\r\nhref=\"https://github.com/actions/deploy-pages/#compatibilty\">compatibility\r\ntable</a>.</p>\r\n<h2>v2.0.5</h2>\r\n<h1>Changelog</h1>\r\n<ul>\r\n<li>Bump prettier from 3.0.0 to 3.1.0 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/deploy-pages/issues/264\">#264</a>)</li>\r\n<li>Bump <code>@​octokit/request-error</code> from 5.0.0 to 5.0.1 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/deploy-pages/issues/263\">#263</a>)</li>\r\n<li>Bump <code>@​actions/http-client</code> from 2.1.0 to 2.2.0 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/deploy-pages/issues/262\">#262</a>)</li>\r\n<li>Bump <code>@​vercel/ncc</code> from 0.36.1 to 0.38.1 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/deploy-pages/issues/260\">#260</a>)</li>\r\n<li>Bump eslint from 8.44.0 to 8.54.0 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/deploy-pages/issues/257\">#257</a>)</li>\r\n<li>Bump nock from 13.3.1 to 13.3.8 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/deploy-pages/issues/254\">#254</a>)</li>\r\n<li>Bump actions/setup-node from 3 to 4 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/deploy-pages/issues/246\">#246</a>)</li>\r\n<li>Bump release-drafter/release-drafter from 5.24.0 to 5.25.0 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/deploy-pages/issues/245\">#245</a>)</li>\r\n<li>Bump eslint-plugin-github from 4.8.0 to 4.10.1 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/deploy-pages/issues/232\">#232</a>)</li>\r\n<li>Bump jest from 29.6.1 to 29.7.0 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/deploy-pages/issues/224\">#224</a>)</li>\r\n<li>Fix cosmetic error by replacing comma with period <a\r\nhref=\"https://github.com/JamesMGreene\"><code>@​JamesMGreene</code></a>\r\n(<a\r\nhref=\"https://redirect.github.com/actions/deploy-pages/issues/210\">#210</a>)</li>\r\n<li>Bump actions/checkout from 3 to 4 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/deploy-pages/issues/220\">#220</a>)</li>\r\n<li>Bump eslint-config-prettier from 8.8.0 to 9.0.0 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/deploy-pages/issues/209\">#209</a>)</li>\r\n<li>Remove &quot;beta&quot; disclaimer from README <a\r\nhref=\"https://github.com/JamesMGreene\"><code>@​JamesMGreene</code></a>\r\n(<a\r\nhref=\"https://redirect.github.com/actions/deploy-pages/issues/243\">#243</a>)</li>\r\n</ul>\r\n<hr />\r\n<p>See details of <a\r\nhref=\"https://github.com/actions/deploy-pages/compare/v2.0.4...v2.0.5\">all\r\ncode changes</a> since previous release.</p>\r\n<p>:warning: For use with products other than GitHub.com, such as GitHub\r\nEnterprise Server, please consult the <a\r\nhref=\"https://github.com/actions/deploy-pages/#compatibilty\">compatibility\r\ntable</a>.</p>\r\n<h2>v2.0.4</h2>\r\n<h1>Changelog</h1>\r\n<ul>\r\n<li>Update GHES compatibility table after verifying with\r\n<code>3.9.x</code> <a\r\nhref=\"https://github.com/JamesMGreene\"><code>@​JamesMGreene</code></a>\r\n(<a\r\nhref=\"https://redirect.github.com/actions/deploy-pages/issues/201\">#201</a>)</li>\r\n<li>Bump <code>@​octokit/request-error</code> from 4.0.1 to 5.0.0 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/deploy-pages/issues/194\">#194</a>)</li>\r\n<li>Bump prettier from 2.8.8 to 3.0.0 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/deploy-pages/issues/196\">#196</a>)</li>\r\n<li>Bump jest from 29.5.0 to 29.6.1 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/deploy-pages/issues/195\">#195</a>)</li>\r\n<li>Bump release-drafter/release-drafter from 5.23.0 to 5.24.0 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/deploy-pages/issues/192\">#192</a>)</li>\r\n<li>Bump eslint from 8.42.0 to 8.44.0 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/deploy-pages/issues/191\">#191</a>)</li>\r\n<li>Remove circular JSON references for error debugging <a\r\nhref=\"https://github.com/JamesMGreene\"><code>@​JamesMGreene</code></a>\r\n(<a\r\nhref=\"https://redirect.github.com/actions/deploy-pages/issues/197\">#197</a>)</li>\r\n</ul>\r\n<hr />\r\n<p>See details of <a\r\nhref=\"https://github.com/actions/deploy-pages/compare/v2.0.3...v2.0.4\">all\r\ncode changes</a> since previous release.</p>\r\n<!-- raw HTML omitted -->\r\n</blockquote>\r\n<p>... (truncated)</p>\r\n</details>\r\n<details>\r\n<summary>Commits</summary>\r\n<ul>\r\n<li><a\r\nhref=\"https://github.com/actions/deploy-pages/commit/77d7344265e1f960dab5c00dbff52287a70b0d4f\"><code>77d7344</code></a>\r\nMerge pull request <a\r\nhref=\"https://redirect.github.com/actions/deploy-pages/issues/256\">#256</a>\r\nfrom takost/update-to-node-20</li>\r\n<li><a\r\nhref=\"https://github.com/actions/deploy-pages/commit/84abb89dc54f5055b934ca7dec97480f1a16f6bb\"><code>84abb89</code></a>\r\nMerge branch 'main' into update-to-node-20</li>\r\n<li>See full diff in <a\r\nhref=\"https://github.com/actions/deploy-pages/compare/v2...v3\">compare\r\nview</a></li>\r\n</ul>\r\n</details>\r\n<br />\r\n\r\n\r\n[![Dependabot compatibility\r\nscore](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=actions/deploy-pages&package-manager=github_actions&previous-version=2&new-version=3)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)\r\n\r\nDependabot will resolve any conflicts with this PR as long as you don't\r\nalter it yourself. You can also trigger a rebase manually by commenting\r\n`@dependabot rebase`.\r\n\r\n[//]: # (dependabot-automerge-start)\r\n[//]: # (dependabot-automerge-end)\r\n\r\n---\r\n\r\n<details>\r\n<summary>Dependabot commands and options</summary>\r\n<br />\r\n\r\nYou can trigger Dependabot actions by commenting on this PR:\r\n- `@dependabot rebase` will rebase this PR\r\n- `@dependabot recreate` will recreate this PR, overwriting any edits\r\nthat have been made to it\r\n- `@dependabot merge` will merge this PR after your CI passes on it\r\n- `@dependabot squash and merge` will squash and merge this PR after\r\nyour CI passes on it\r\n- `@dependabot cancel merge` will cancel a previously requested merge\r\nand block automerging\r\n- `@dependabot reopen` will reopen this PR if it is closed\r\n- `@dependabot close` will close this PR and stop Dependabot recreating\r\nit. You can achieve the same result by closing it manually\r\n- `@dependabot show <dependency name> ignore conditions` will show all\r\nof the ignore conditions of the specified dependency\r\n- `@dependabot ignore this major version` will close this PR and stop\r\nDependabot creating any more for this major version (unless you reopen\r\nthe PR or upgrade to it yourself)\r\n- `@dependabot ignore this minor version` will close this PR and stop\r\nDependabot creating any more for this minor version (unless you reopen\r\nthe PR or upgrade to it yourself)\r\n- `@dependabot ignore this dependency` will close this PR and stop\r\nDependabot creating any more for this dependency (unless you reopen the\r\nPR or upgrade to it yourself)\r\n\r\n\r\n</details>",
+          "timestamp": "2023-12-12T20:48:58+01:00",
+          "tree_id": "8509dfa6abdd224b53fe1f7d6006b5f76ee7f13a",
+          "url": "https://github.com/mbrobbel/narrow/commit/2dcccf017bb55717f1566ecfc78e4b5df9ae3d21"
+        },
+        "date": 1702410652211,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 3945,
+            "range": "± 20",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 3941,
+            "range": "± 43",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 3954,
+            "range": "± 16",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 11499,
+            "range": "± 42",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 11495,
+            "range": "± 34",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 11496,
+            "range": "± 141",
             "unit": "ns/iter"
           }
         ]
