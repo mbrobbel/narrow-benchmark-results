@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702468252825,
+  "lastUpdate": 1702480134568,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -5279,6 +5279,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 11498,
             "range": "± 50",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "m1brobbel@gmail.com",
+            "name": "Matthijs Brobbel",
+            "username": "mbrobbel"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fcb49b34bcadbdd6e1e51534ae1b94a6b896c8c6",
+          "message": "feat: convert `StructArray` from `arrow_array::StructArray` (#118)\n\nThis enables roundtripping through a parquet file.",
+          "timestamp": "2023-12-13T16:07:00+01:00",
+          "tree_id": "f3f7836f7a019863a45d4fe7823c0ff88de5ad95",
+          "url": "https://github.com/mbrobbel/narrow/commit/fcb49b34bcadbdd6e1e51534ae1b94a6b896c8c6"
+        },
+        "date": 1702480134264,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 3918,
+            "range": "± 69",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 3912,
+            "range": "± 11",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 3923,
+            "range": "± 136",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 11496,
+            "range": "± 411",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 11497,
+            "range": "± 60",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 11492,
+            "range": "± 51",
             "unit": "ns/iter"
           }
         ]
