@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702480134568,
+  "lastUpdate": 1702499424107,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -5339,6 +5339,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 11492,
             "range": "± 51",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "m1brobbel@gmail.com",
+            "name": "Matthijs Brobbel",
+            "username": "mbrobbel"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a633d1e958d6c5abc19445c5579415186b4b7d5a",
+          "message": "chore(deps): bump syn from 2.0.40 to 2.0.41 (#119)\n\nBumps [syn](https://github.com/dtolnay/syn) from 2.0.40 to 2.0.41.\r\n<details>\r\n<summary>Release notes</summary>\r\n<p><em>Sourced from <a\r\nhref=\"https://github.com/dtolnay/syn/releases\">syn's\r\nreleases</a>.</em></p>\r\n<blockquote>\r\n<h2>2.0.41</h2>\r\n<ul>\r\n<li>Support parsing syn::Field in <code>parse_quote!</code> (<a\r\nhref=\"https://redirect.github.com/dtolnay/syn/issues/1548\">#1548</a>)</li>\r\n</ul>\r\n</blockquote>\r\n</details>\r\n<details>\r\n<summary>Commits</summary>\r\n<ul>\r\n<li><a\r\nhref=\"https://github.com/dtolnay/syn/commit/63b17012ab20ff72f3e49aaf821719a866b1a352\"><code>63b1701</code></a>\r\nRelease 2.0.41</li>\r\n<li><a\r\nhref=\"https://github.com/dtolnay/syn/commit/920ab7d6a061921d03541d86d7ac8daaf864bb7b\"><code>920ab7d</code></a>\r\nMerge pull request <a\r\nhref=\"https://redirect.github.com/dtolnay/syn/issues/1548\">#1548</a>\r\nfrom dtolnay/parsequotefield</li>\r\n<li><a\r\nhref=\"https://github.com/dtolnay/syn/commit/5e1592408c3bcda68db10cd054f9d87e9e480f9b\"><code>5e15924</code></a>\r\nTest parse_quote implementation for Field</li>\r\n<li><a\r\nhref=\"https://github.com/dtolnay/syn/commit/c268c6793f8a71ac2f3e8ee80201701e4352b407\"><code>c268c67</code></a>\r\nSupport parsing Field in parse_quote</li>\r\n<li><a\r\nhref=\"https://github.com/dtolnay/syn/commit/2ab0f6ae4b47d133c828d9123e86a50565a95447\"><code>2ab0f6a</code></a>\r\nMerge pull request <a\r\nhref=\"https://redirect.github.com/dtolnay/syn/issues/1547\">#1547</a>\r\nfrom dtolnay/testparsequote</li>\r\n<li><a\r\nhref=\"https://github.com/dtolnay/syn/commit/46172a41a478920ff23c9e370a5b922fa984829d\"><code>46172a4</code></a>\r\nAdd parse_quote tests</li>\r\n<li><a\r\nhref=\"https://github.com/dtolnay/syn/commit/0fcdad044f330f4c32e2f3b1230271669d1951ea\"><code>0fcdad0</code></a>\r\nSupport punctuated Pairs iterator in snapshot tests</li>\r\n<li><a\r\nhref=\"https://github.com/dtolnay/syn/commit/06161ba80283edf6f741dfc86c91f6985297d168\"><code>06161ba</code></a>\r\nUpdate test suite to nightly-2023-12-12</li>\r\n<li>See full diff in <a\r\nhref=\"https://github.com/dtolnay/syn/compare/2.0.40...2.0.41\">compare\r\nview</a></li>\r\n</ul>\r\n</details>\r\n<br />\r\n\r\n\r\n[![Dependabot compatibility\r\nscore](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=syn&package-manager=cargo&previous-version=2.0.40&new-version=2.0.41)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)\r\n\r\nDependabot will resolve any conflicts with this PR as long as you don't\r\nalter it yourself. You can also trigger a rebase manually by commenting\r\n`@dependabot rebase`.\r\n\r\n[//]: # (dependabot-automerge-start)\r\n[//]: # (dependabot-automerge-end)\r\n\r\n---\r\n\r\n<details>\r\n<summary>Dependabot commands and options</summary>\r\n<br />\r\n\r\nYou can trigger Dependabot actions by commenting on this PR:\r\n- `@dependabot rebase` will rebase this PR\r\n- `@dependabot recreate` will recreate this PR, overwriting any edits\r\nthat have been made to it\r\n- `@dependabot merge` will merge this PR after your CI passes on it\r\n- `@dependabot squash and merge` will squash and merge this PR after\r\nyour CI passes on it\r\n- `@dependabot cancel merge` will cancel a previously requested merge\r\nand block automerging\r\n- `@dependabot reopen` will reopen this PR if it is closed\r\n- `@dependabot close` will close this PR and stop Dependabot recreating\r\nit. You can achieve the same result by closing it manually\r\n- `@dependabot show <dependency name> ignore conditions` will show all\r\nof the ignore conditions of the specified dependency\r\n- `@dependabot ignore this major version` will close this PR and stop\r\nDependabot creating any more for this major version (unless you reopen\r\nthe PR or upgrade to it yourself)\r\n- `@dependabot ignore this minor version` will close this PR and stop\r\nDependabot creating any more for this minor version (unless you reopen\r\nthe PR or upgrade to it yourself)\r\n- `@dependabot ignore this dependency` will close this PR and stop\r\nDependabot creating any more for this dependency (unless you reopen the\r\nPR or upgrade to it yourself)\r\n\r\n\r\n</details>",
+          "timestamp": "2023-12-13T21:27:28+01:00",
+          "tree_id": "a11817d36a00b51054ddafb6910b4d1bb1a8b3c2",
+          "url": "https://github.com/mbrobbel/narrow/commit/a633d1e958d6c5abc19445c5579415186b4b7d5a"
+        },
+        "date": 1702499423627,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 3930,
+            "range": "± 210",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 3930,
+            "range": "± 12",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 3944,
+            "range": "± 246",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 11498,
+            "range": "± 157",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 11496,
+            "range": "± 821",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 11497,
+            "range": "± 82",
             "unit": "ns/iter"
           }
         ]
