@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702462853585,
+  "lastUpdate": 1702468252825,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -5219,6 +5219,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 11497,
             "range": "± 162",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "m1brobbel@gmail.com",
+            "name": "Matthijs Brobbel",
+            "username": "mbrobbel"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b5210c7a558d4c665a93f609d26d5882f17a3970",
+          "message": "feat: add `arrow-rs` interop support for `FixedSizeListArray` (#117)\n\nAdds support for interop between `narrow::array::FixedSizeListArray` and\r\n`arrow_array::FixedSizeListArray`.",
+          "timestamp": "2023-12-13T12:49:00+01:00",
+          "tree_id": "1180b112cca356f6a302adc81c3789153ff654d2",
+          "url": "https://github.com/mbrobbel/narrow/commit/b5210c7a558d4c665a93f609d26d5882f17a3970"
+        },
+        "date": 1702468252530,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 3929,
+            "range": "± 162",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 3930,
+            "range": "± 13",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 3946,
+            "range": "± 18",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 11494,
+            "range": "± 52",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 11496,
+            "range": "± 1543",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 11498,
+            "range": "± 50",
             "unit": "ns/iter"
           }
         ]
