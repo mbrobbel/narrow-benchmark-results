@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702414860732,
+  "lastUpdate": 1702462853585,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -5159,6 +5159,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 11499,
             "range": "± 25",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "m1brobbel@gmail.com",
+            "name": "Matthijs Brobbel",
+            "username": "mbrobbel"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "347538e8417077dc7fbd34249be512f3d3fba9dd",
+          "message": "docs: add `docs.rs` metadata and set `docsrs` for main branch doc deploy (#116)\n\nTo make sure the deployed docs of the main branch render required\r\nfeatures.",
+          "timestamp": "2023-12-13T11:18:47+01:00",
+          "tree_id": "264800a616d21fc55f6e7fd054e141379d22d154",
+          "url": "https://github.com/mbrobbel/narrow/commit/347538e8417077dc7fbd34249be512f3d3fba9dd"
+        },
+        "date": 1702462853299,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 3941,
+            "range": "± 33",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 3927,
+            "range": "± 25",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 3950,
+            "range": "± 16",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 11500,
+            "range": "± 80",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 11498,
+            "range": "± 268",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 11497,
+            "range": "± 162",
             "unit": "ns/iter"
           }
         ]
