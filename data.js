@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704718480334,
+  "lastUpdate": 1704720557198,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -5759,6 +5759,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 7931,
             "range": "± 25",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6f7e170dd7a1f6c7a7ef531f3b4e0fbac8d64595",
+          "message": "chore(deps): bump syn from 2.0.41 to 2.0.43 (#129)\n\nBumps [syn](https://github.com/dtolnay/syn) from 2.0.41 to 2.0.43.\r\n<details>\r\n<summary>Release notes</summary>\r\n<p><em>Sourced from <a\r\nhref=\"https://github.com/dtolnay/syn/releases\">syn's\r\nreleases</a>.</em></p>\r\n<blockquote>\r\n<h2>2.0.43</h2>\r\n<ul>\r\n<li>Insert trailing comma if not already present when printing a 1-tuple\r\nin pattern position (<a\r\nhref=\"https://redirect.github.com/dtolnay/syn/issues/1553\">#1553</a>)</li>\r\n</ul>\r\n<h2>2.0.42</h2>\r\n<ul>\r\n<li>Documentation improvements</li>\r\n</ul>\r\n</blockquote>\r\n</details>\r\n<details>\r\n<summary>Commits</summary>\r\n<ul>\r\n<li><a\r\nhref=\"https://github.com/dtolnay/syn/commit/95ee05214030f936b8db3ee295188d5dc2c89621\"><code>95ee052</code></a>\r\nRelease 2.0.43</li>\r\n<li><a\r\nhref=\"https://github.com/dtolnay/syn/commit/7383e81b1ab6f9983692ebd9d6caa54aeff8fb85\"><code>7383e81</code></a>\r\nMerge pull request <a\r\nhref=\"https://redirect.github.com/dtolnay/syn/issues/1559\">#1559</a>\r\nfrom dtolnay/pattuple</li>\r\n<li><a\r\nhref=\"https://github.com/dtolnay/syn/commit/712fde5a6fce0e7bee3615ab5c7545ce442bf034\"><code>712fde5</code></a>\r\nFix ToTokens for PatTuple to insert trailing comma</li>\r\n<li><a\r\nhref=\"https://github.com/dtolnay/syn/commit/ed9b94e3395cffb33db4254439e23dbc3a2e9e43\"><code>ed9b94e</code></a>\r\nMerge pull request <a\r\nhref=\"https://redirect.github.com/dtolnay/syn/issues/1558\">#1558</a>\r\nfrom dtolnay/tupletests</li>\r\n<li><a\r\nhref=\"https://github.com/dtolnay/syn/commit/ec8517b33c137c48c38b74ba5be21815763a50f5\"><code>ec8517b</code></a>\r\nAdd tuple comma tests</li>\r\n<li><a\r\nhref=\"https://github.com/dtolnay/syn/commit/3cf16c76bdbe4e16261a167592a77edab853c6aa\"><code>3cf16c7</code></a>\r\nMerge pull request <a\r\nhref=\"https://redirect.github.com/dtolnay/syn/issues/1557\">#1557</a>\r\nfrom dtolnay/snapshotparsequote</li>\r\n<li><a\r\nhref=\"https://github.com/dtolnay/syn/commit/553549ff12358a6ad95baaed2601a9dab541d693\"><code>553549f</code></a>\r\nGeneralize snapshot parsing to types that do not implement Parse</li>\r\n<li><a\r\nhref=\"https://github.com/dtolnay/syn/commit/f9ad833e4a77c61003861f4e14d16b10b9708f9e\"><code>f9ad833</code></a>\r\nMerge pull request <a\r\nhref=\"https://redirect.github.com/dtolnay/syn/issues/1556\">#1556</a>\r\nfrom dtolnay/punctuatedsnapshot</li>\r\n<li><a\r\nhref=\"https://github.com/dtolnay/syn/commit/131b40ba2904ec8755bb34466f369072dc34d588\"><code>131b40b</code></a>\r\nDebug impl for punctuated::Pairs superseded by Punctuated</li>\r\n<li><a\r\nhref=\"https://github.com/dtolnay/syn/commit/3f12d652a8871955a7e27e0369933288bc387dd5\"><code>3f12d65</code></a>\r\nInclude punctuation tokens in snapshot tests containing Punctuated</li>\r\n<li>Additional commits viewable in <a\r\nhref=\"https://github.com/dtolnay/syn/compare/2.0.41...2.0.43\">compare\r\nview</a></li>\r\n</ul>\r\n</details>\r\n<br />\r\n\r\n\r\n[![Dependabot compatibility\r\nscore](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=syn&package-manager=cargo&previous-version=2.0.41&new-version=2.0.43)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)\r\n\r\nDependabot will resolve any conflicts with this PR as long as you don't\r\nalter it yourself. You can also trigger a rebase manually by commenting\r\n`@dependabot rebase`.\r\n\r\n[//]: # (dependabot-automerge-start)\r\n[//]: # (dependabot-automerge-end)\r\n\r\n---\r\n\r\n<details>\r\n<summary>Dependabot commands and options</summary>\r\n<br />\r\n\r\nYou can trigger Dependabot actions by commenting on this PR:\r\n- `@dependabot rebase` will rebase this PR\r\n- `@dependabot recreate` will recreate this PR, overwriting any edits\r\nthat have been made to it\r\n- `@dependabot merge` will merge this PR after your CI passes on it\r\n- `@dependabot squash and merge` will squash and merge this PR after\r\nyour CI passes on it\r\n- `@dependabot cancel merge` will cancel a previously requested merge\r\nand block automerging\r\n- `@dependabot reopen` will reopen this PR if it is closed\r\n- `@dependabot close` will close this PR and stop Dependabot recreating\r\nit. You can achieve the same result by closing it manually\r\n- `@dependabot show <dependency name> ignore conditions` will show all\r\nof the ignore conditions of the specified dependency\r\n- `@dependabot ignore this major version` will close this PR and stop\r\nDependabot creating any more for this major version (unless you reopen\r\nthe PR or upgrade to it yourself)\r\n- `@dependabot ignore this minor version` will close this PR and stop\r\nDependabot creating any more for this minor version (unless you reopen\r\nthe PR or upgrade to it yourself)\r\n- `@dependabot ignore this dependency` will close this PR and stop\r\nDependabot creating any more for this dependency (unless you reopen the\r\nPR or upgrade to it yourself)\r\n\r\n\r\n</details>\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\r\nCo-authored-by: Matthijs Brobbel <m1brobbel@gmail.com>",
+          "timestamp": "2024-01-08T14:26:37+01:00",
+          "tree_id": "0ef88f2c4a83e93bb8b3c5508aecb1b2a4ecb18b",
+          "url": "https://github.com/mbrobbel/narrow/commit/6f7e170dd7a1f6c7a7ef531f3b4e0fbac8d64595"
+        },
+        "date": 1704720556567,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 3911,
+            "range": "± 27",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 3916,
+            "range": "± 12",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 3924,
+            "range": "± 63",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 11500,
+            "range": "± 67",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 11494,
+            "range": "± 75",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 11498,
+            "range": "± 45",
             "unit": "ns/iter"
           }
         ]
