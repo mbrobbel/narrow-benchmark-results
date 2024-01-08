@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704720557198,
+  "lastUpdate": 1704721475557,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -5819,6 +5819,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 11498,
             "range": "± 45",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "59b4d8e2b65173b2782d8822f513534126983ecc",
+          "message": "chore(deps): bump quote from 1.0.33 to 1.0.35 (#132)\n\nBumps [quote](https://github.com/dtolnay/quote) from 1.0.33 to 1.0.35.\r\n<details>\r\n<summary>Release notes</summary>\r\n<p><em>Sourced from <a\r\nhref=\"https://github.com/dtolnay/quote/releases\">quote's\r\nreleases</a>.</em></p>\r\n<blockquote>\r\n<h2>1.0.35</h2>\r\n<ul>\r\n<li>Update proc-macro2 to fix caching issue when using a rustc-wrapper\r\nsuch as sccache</li>\r\n</ul>\r\n<h2>1.0.34</h2>\r\n<ul>\r\n<li>Documentation improvements</li>\r\n</ul>\r\n</blockquote>\r\n</details>\r\n<details>\r\n<summary>Commits</summary>\r\n<ul>\r\n<li><a\r\nhref=\"https://github.com/dtolnay/quote/commit/b01743f24cb5b19f96a3eac6bce0e7aee10f6199\"><code>b01743f</code></a>\r\nRelease 1.0.35</li>\r\n<li><a\r\nhref=\"https://github.com/dtolnay/quote/commit/57851d785ab07056319265bac889716958d2e980\"><code>57851d7</code></a>\r\nPull in proc-macro2 sccache fix</li>\r\n<li><a\r\nhref=\"https://github.com/dtolnay/quote/commit/c777ce6fc1e009e5289970b5261dd53984b5a2a9\"><code>c777ce6</code></a>\r\nRelease 1.0.34</li>\r\n<li><a\r\nhref=\"https://github.com/dtolnay/quote/commit/e9cb3c25f30c5b5aa7c1fb0e245564502817e087\"><code>e9cb3c2</code></a>\r\nPull in proc-macro2 build script improvement</li>\r\n<li><a\r\nhref=\"https://github.com/dtolnay/quote/commit/f8fc16dc18046b0458c01b5615989a0c889bad57\"><code>f8fc16d</code></a>\r\nTest docs.rs documentation build in CI</li>\r\n<li><a\r\nhref=\"https://github.com/dtolnay/quote/commit/3a9d31fd45831d66315eed6959462fe578667fb3\"><code>3a9d31f</code></a>\r\nUpdate actions/checkout@v3 -&gt; v4</li>\r\n<li><a\r\nhref=\"https://github.com/dtolnay/quote/commit/fe2dec4258201ae0304a4bd3eb7fde3fca6b0b5a\"><code>fe2dec4</code></a>\r\nMerge pull request <a\r\nhref=\"https://redirect.github.com/dtolnay/quote/issues/262\">#262</a>\r\nfrom dtolnay/syn2</li>\r\n<li><a\r\nhref=\"https://github.com/dtolnay/quote/commit/5d33628e9879a811e634be702ee75daf9c5db2e9\"><code>5d33628</code></a>\r\nUpdate syn 1.0 link to syn 2.0</li>\r\n<li>See full diff in <a\r\nhref=\"https://github.com/dtolnay/quote/compare/1.0.33...1.0.35\">compare\r\nview</a></li>\r\n</ul>\r\n</details>\r\n<br />\r\n\r\n\r\n[![Dependabot compatibility\r\nscore](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=quote&package-manager=cargo&previous-version=1.0.33&new-version=1.0.35)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)\r\n\r\nDependabot will resolve any conflicts with this PR as long as you don't\r\nalter it yourself. You can also trigger a rebase manually by commenting\r\n`@dependabot rebase`.\r\n\r\n[//]: # (dependabot-automerge-start)\r\n[//]: # (dependabot-automerge-end)\r\n\r\n---\r\n\r\n<details>\r\n<summary>Dependabot commands and options</summary>\r\n<br />\r\n\r\nYou can trigger Dependabot actions by commenting on this PR:\r\n- `@dependabot rebase` will rebase this PR\r\n- `@dependabot recreate` will recreate this PR, overwriting any edits\r\nthat have been made to it\r\n- `@dependabot merge` will merge this PR after your CI passes on it\r\n- `@dependabot squash and merge` will squash and merge this PR after\r\nyour CI passes on it\r\n- `@dependabot cancel merge` will cancel a previously requested merge\r\nand block automerging\r\n- `@dependabot reopen` will reopen this PR if it is closed\r\n- `@dependabot close` will close this PR and stop Dependabot recreating\r\nit. You can achieve the same result by closing it manually\r\n- `@dependabot show <dependency name> ignore conditions` will show all\r\nof the ignore conditions of the specified dependency\r\n- `@dependabot ignore this major version` will close this PR and stop\r\nDependabot creating any more for this major version (unless you reopen\r\nthe PR or upgrade to it yourself)\r\n- `@dependabot ignore this minor version` will close this PR and stop\r\nDependabot creating any more for this minor version (unless you reopen\r\nthe PR or upgrade to it yourself)\r\n- `@dependabot ignore this dependency` will close this PR and stop\r\nDependabot creating any more for this dependency (unless you reopen the\r\nPR or upgrade to it yourself)\r\n\r\n\r\n</details>\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2024-01-08T14:41:48+01:00",
+          "tree_id": "a5e91270c8d4d1b967dae4ba3070744e0c74cd0a",
+          "url": "https://github.com/mbrobbel/narrow/commit/59b4d8e2b65173b2782d8822f513534126983ecc"
+        },
+        "date": 1704721475155,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 3917,
+            "range": "± 7",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 3915,
+            "range": "± 21",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 3930,
+            "range": "± 14",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 7934,
+            "range": "± 80",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 7937,
+            "range": "± 54",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 7939,
+            "range": "± 55",
             "unit": "ns/iter"
           }
         ]
