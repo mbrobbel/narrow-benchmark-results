@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704716774657,
+  "lastUpdate": 1704716785637,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -5639,6 +5639,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 7928,
             "range": "± 52",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7a2f929104efefa6ab1d1f8c12061d66e0e16f91",
+          "message": "chore(deps): bump actions/upload-pages-artifact from 2 to 3 (#126)\n\nBumps\r\n[actions/upload-pages-artifact](https://github.com/actions/upload-pages-artifact)\r\nfrom 2 to 3.\r\n<details>\r\n<summary>Release notes</summary>\r\n<p><em>Sourced from <a\r\nhref=\"https://github.com/actions/upload-pages-artifact/releases\">actions/upload-pages-artifact's\r\nreleases</a>.</em></p>\r\n<blockquote>\r\n<h2>v3.0.0</h2>\r\n<h1>Changelog</h1>\r\n<ul>\r\n<li>Use <code>v4</code> upload-artifact tag <a\r\nhref=\"https://github.com/robherley\"><code>@​robherley</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/upload-pages-artifact/issues/80\">#80</a>)</li>\r\n<li>Upload pages artifact with upload-artifact v4-beta <a\r\nhref=\"https://github.com/konradpabjan\"><code>@​konradpabjan</code></a>\r\n(<a\r\nhref=\"https://redirect.github.com/actions/upload-pages-artifact/issues/78\">#78</a>)</li>\r\n</ul>\r\n<p>To deploy a GitHub Pages site which has been uploaded with his\r\nversion of <code>actions/upload-pages-artifact</code>, you must also use\r\n<code>actions/deploy-pages@v4</code> or newer.</p>\r\n<p>See details of <a\r\nhref=\"https://github.com/actions/upload-pages-artifact/compare/v2.0.0...v3.0.0\">all\r\ncode changes</a> since previous release.</p>\r\n</blockquote>\r\n</details>\r\n<details>\r\n<summary>Commits</summary>\r\n<ul>\r\n<li><a\r\nhref=\"https://github.com/actions/upload-pages-artifact/commit/0252fc4ba7626f0298f0cf00902a25c6afc77fa8\"><code>0252fc4</code></a>\r\nMerge pull request <a\r\nhref=\"https://redirect.github.com/actions/upload-pages-artifact/issues/81\">#81</a>\r\nfrom actions/artifacts-next</li>\r\n<li><a\r\nhref=\"https://github.com/actions/upload-pages-artifact/commit/2a5c1440746537a84f699a04465e7ac8a64879e4\"><code>2a5c144</code></a>\r\nUse actions/download-artifact@v4 in test</li>\r\n<li><a\r\nhref=\"https://github.com/actions/upload-pages-artifact/commit/7e3f6bb53bf41c0cc32c369403f7fcbb8989c9ae\"><code>7e3f6bb</code></a>\r\nMerge pull request <a\r\nhref=\"https://redirect.github.com/actions/upload-pages-artifact/issues/80\">#80</a>\r\nfrom robherley/patch-1</li>\r\n<li><a\r\nhref=\"https://github.com/actions/upload-pages-artifact/commit/257e666c0505b64d304755738c09e8a1f32ff7e0\"><code>257e666</code></a>\r\nUse <code>v4</code> upload-artifact tag</li>\r\n<li><a\r\nhref=\"https://github.com/actions/upload-pages-artifact/commit/0313a19afa9efdf74b4e31c9554d35f744213f0e\"><code>0313a19</code></a>\r\nMerge pull request <a\r\nhref=\"https://redirect.github.com/actions/upload-pages-artifact/issues/78\">#78</a>\r\nfrom konradpabjan/main</li>\r\n<li><a\r\nhref=\"https://github.com/actions/upload-pages-artifact/commit/1228e656868935b3c8b085b28ea3b89b5763c64e\"><code>1228e65</code></a>\r\nUpdate action.yml</li>\r\n<li><a\r\nhref=\"https://github.com/actions/upload-pages-artifact/commit/eb31309b6cdf94f92e47abb173a0cbed9b5056cf\"><code>eb31309</code></a>\r\nUpdate artifact names in tests</li>\r\n<li><a\r\nhref=\"https://github.com/actions/upload-pages-artifact/commit/241a975ec2c9ecb3effc2875203cce4b9e25078d\"><code>241a975</code></a>\r\nCorrect artifact name during download</li>\r\n<li><a\r\nhref=\"https://github.com/actions/upload-pages-artifact/commit/ef95519d72c61a2dd9137c79470bacfc5bdbbaa8\"><code>ef95519</code></a>\r\nUnique artifact name per job</li>\r\n<li><a\r\nhref=\"https://github.com/actions/upload-pages-artifact/commit/ecdd3edff76d306e98d046dfc846e651354ac144\"><code>ecdd3ed</code></a>\r\nSwitch to using download@v4-beta</li>\r\n<li>Additional commits viewable in <a\r\nhref=\"https://github.com/actions/upload-pages-artifact/compare/v2...v3\">compare\r\nview</a></li>\r\n</ul>\r\n</details>\r\n<br />\r\n\r\n\r\n[![Dependabot compatibility\r\nscore](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=actions/upload-pages-artifact&package-manager=github_actions&previous-version=2&new-version=3)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)\r\n\r\nDependabot will resolve any conflicts with this PR as long as you don't\r\nalter it yourself. You can also trigger a rebase manually by commenting\r\n`@dependabot rebase`.\r\n\r\n[//]: # (dependabot-automerge-start)\r\n[//]: # (dependabot-automerge-end)\r\n\r\n---\r\n\r\n<details>\r\n<summary>Dependabot commands and options</summary>\r\n<br />\r\n\r\nYou can trigger Dependabot actions by commenting on this PR:\r\n- `@dependabot rebase` will rebase this PR\r\n- `@dependabot recreate` will recreate this PR, overwriting any edits\r\nthat have been made to it\r\n- `@dependabot merge` will merge this PR after your CI passes on it\r\n- `@dependabot squash and merge` will squash and merge this PR after\r\nyour CI passes on it\r\n- `@dependabot cancel merge` will cancel a previously requested merge\r\nand block automerging\r\n- `@dependabot reopen` will reopen this PR if it is closed\r\n- `@dependabot close` will close this PR and stop Dependabot recreating\r\nit. You can achieve the same result by closing it manually\r\n- `@dependabot show <dependency name> ignore conditions` will show all\r\nof the ignore conditions of the specified dependency\r\n- `@dependabot ignore this major version` will close this PR and stop\r\nDependabot creating any more for this major version (unless you reopen\r\nthe PR or upgrade to it yourself)\r\n- `@dependabot ignore this minor version` will close this PR and stop\r\nDependabot creating any more for this minor version (unless you reopen\r\nthe PR or upgrade to it yourself)\r\n- `@dependabot ignore this dependency` will close this PR and stop\r\nDependabot creating any more for this dependency (unless you reopen the\r\nPR or upgrade to it yourself)\r\n\r\n\r\n</details>\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2024-01-08T13:22:48+01:00",
+          "tree_id": "024c395103f1634e7ee924386c53384def000779",
+          "url": "https://github.com/mbrobbel/narrow/commit/7a2f929104efefa6ab1d1f8c12061d66e0e16f91"
+        },
+        "date": 1704716785178,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 3925,
+            "range": "± 77",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 3908,
+            "range": "± 38",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 3935,
+            "range": "± 357",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 7943,
+            "range": "± 1009",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 7939,
+            "range": "± 43",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 7937,
+            "range": "± 154",
             "unit": "ns/iter"
           }
         ]
