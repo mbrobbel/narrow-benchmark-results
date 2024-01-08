@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702636573460,
+  "lastUpdate": 1704716774657,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -5579,6 +5579,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 11491,
             "range": "± 47",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b049254f3facf93a9a7d9164c0d5f7fa73f9bd54",
+          "message": "chore(deps): bump actions/deploy-pages from 3 to 4 (#125)\n\nBumps [actions/deploy-pages](https://github.com/actions/deploy-pages)\r\nfrom 3 to 4.\r\n<details>\r\n<summary>Release notes</summary>\r\n<p><em>Sourced from <a\r\nhref=\"https://github.com/actions/deploy-pages/releases\">actions/deploy-pages's\r\nreleases</a>.</em></p>\r\n<blockquote>\r\n<h2>v4.0.0</h2>\r\n<h1>Changelog</h1>\r\n<ul>\r\n<li>Deploy pages using artifact IDs <a\r\nhref=\"https://github.com/konradpabjan\"><code>@​konradpabjan</code></a>\r\n(<a\r\nhref=\"https://redirect.github.com/actions/deploy-pages/issues/251\">#251</a>)</li>\r\n</ul>\r\n<hr />\r\n<p>This version of <code>actions/deploy-pages</code> is only compatible\r\nwith artifacts uploaded by <code>actions/upload-pages-artifact@v3</code>\r\nor newer.</p>\r\n<p>See details of <a\r\nhref=\"https://github.com/actions/deploy-pages/compare/v3.0.1...v4.0.0\">all\r\ncode changes</a> since previous release.</p>\r\n<p>:warning: For use with products other than GitHub.com, such as GitHub\r\nEnterprise Server, please consult the <a\r\nhref=\"https://github.com/actions/deploy-pages/#compatibilty\">compatibility\r\ntable</a>.</p>\r\n<h2>v3.0.1</h2>\r\n<h1>Changelog</h1>\r\n<ul>\r\n<li>Bump eslint from 8.54.0 to 8.55.0 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/deploy-pages/issues/266\">#266</a>)</li>\r\n<li>Bump nock from 13.3.8 to 13.4.0 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/deploy-pages/issues/267\">#267</a>)</li>\r\n<li>Bump eslint-config-prettier from 9.0.0 to 9.1.0 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/deploy-pages/issues/268\">#268</a>)</li>\r\n<li>Bump <code>@​actions/core</code> from 1.10.0 to 1.10.1 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/deploy-pages/issues/269\">#269</a>)</li>\r\n<li>Bump <code>@​actions/github</code> from 5.1.1 to 6.0.0 <a\r\nhref=\"https://github.com/dependabot\"><code>@​dependabot</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/deploy-pages/issues/261\">#261</a>)</li>\r\n<li>Update compatibility table for v3 <a\r\nhref=\"https://github.com/JamesMGreene\"><code>@​JamesMGreene</code></a>\r\n(<a\r\nhref=\"https://redirect.github.com/actions/deploy-pages/issues/270\">#270</a>)</li>\r\n</ul>\r\n<h2>🧰 Maintenance</h2>\r\n<ul>\r\n<li>chore/docs: update version, fix typos <a\r\nhref=\"https://github.com/kbdharun\"><code>@​kbdharun</code></a> (<a\r\nhref=\"https://redirect.github.com/actions/deploy-pages/issues/272\">#272</a>)</li>\r\n</ul>\r\n<hr />\r\n<p>See details of <a\r\nhref=\"https://github.com/actions/deploy-pages/compare/v3.0.0...v3.0.1\">all\r\ncode changes</a> since previous release.</p>\r\n<p>:warning: For use with products other than GitHub.com, such as GitHub\r\nEnterprise Server, please consult the <a\r\nhref=\"https://github.com/actions/deploy-pages/#compatibilty\">compatibility\r\ntable</a>.</p>\r\n</blockquote>\r\n</details>\r\n<details>\r\n<summary>Commits</summary>\r\n<ul>\r\n<li><a\r\nhref=\"https://github.com/actions/deploy-pages/commit/f33f41b675f0ab2dc5a6863c9a170fe83af3571e\"><code>f33f41b</code></a>\r\nMerge pull request <a\r\nhref=\"https://redirect.github.com/actions/deploy-pages/issues/279\">#279</a>\r\nfrom actions/artifacts-next-ga</li>\r\n<li><a\r\nhref=\"https://github.com/actions/deploy-pages/commit/0d45f33cdeb74801a7a5c5af95dceac9fa933818\"><code>0d45f33</code></a>\r\npretty</li>\r\n<li><a\r\nhref=\"https://github.com/actions/deploy-pages/commit/d1e23d0efd9866b3e474883905cb86712868e97b\"><code>d1e23d0</code></a>\r\nMerge branch 'main' into artifacts-next-ga</li>\r\n<li>See full diff in <a\r\nhref=\"https://github.com/actions/deploy-pages/compare/v3...v4\">compare\r\nview</a></li>\r\n</ul>\r\n</details>\r\n<br />\r\n\r\n\r\n[![Dependabot compatibility\r\nscore](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=actions/deploy-pages&package-manager=github_actions&previous-version=3&new-version=4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)\r\n\r\nDependabot will resolve any conflicts with this PR as long as you don't\r\nalter it yourself. You can also trigger a rebase manually by commenting\r\n`@dependabot rebase`.\r\n\r\n[//]: # (dependabot-automerge-start)\r\n[//]: # (dependabot-automerge-end)\r\n\r\n---\r\n\r\n<details>\r\n<summary>Dependabot commands and options</summary>\r\n<br />\r\n\r\nYou can trigger Dependabot actions by commenting on this PR:\r\n- `@dependabot rebase` will rebase this PR\r\n- `@dependabot recreate` will recreate this PR, overwriting any edits\r\nthat have been made to it\r\n- `@dependabot merge` will merge this PR after your CI passes on it\r\n- `@dependabot squash and merge` will squash and merge this PR after\r\nyour CI passes on it\r\n- `@dependabot cancel merge` will cancel a previously requested merge\r\nand block automerging\r\n- `@dependabot reopen` will reopen this PR if it is closed\r\n- `@dependabot close` will close this PR and stop Dependabot recreating\r\nit. You can achieve the same result by closing it manually\r\n- `@dependabot show <dependency name> ignore conditions` will show all\r\nof the ignore conditions of the specified dependency\r\n- `@dependabot ignore this major version` will close this PR and stop\r\nDependabot creating any more for this major version (unless you reopen\r\nthe PR or upgrade to it yourself)\r\n- `@dependabot ignore this minor version` will close this PR and stop\r\nDependabot creating any more for this minor version (unless you reopen\r\nthe PR or upgrade to it yourself)\r\n- `@dependabot ignore this dependency` will close this PR and stop\r\nDependabot creating any more for this dependency (unless you reopen the\r\nPR or upgrade to it yourself)\r\n\r\n\r\n</details>\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2024-01-08T13:22:52+01:00",
+          "tree_id": "8d634ba032671868d05f60e0fd25d123ff8ecfd7",
+          "url": "https://github.com/mbrobbel/narrow/commit/b049254f3facf93a9a7d9164c0d5f7fa73f9bd54"
+        },
+        "date": 1704716774363,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 3923,
+            "range": "± 13",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 3904,
+            "range": "± 27",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 3927,
+            "range": "± 35",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 7929,
+            "range": "± 225",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 7929,
+            "range": "± 103",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 7928,
+            "range": "± 52",
             "unit": "ns/iter"
           }
         ]
