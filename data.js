@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1705672047345,
+  "lastUpdate": 1705673970593,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -6059,6 +6059,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 11492,
             "range": "± 80",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "58c2d4ef568a50dd642a515dbf6fdcdf3cc2f46c",
+          "message": "chore(deps): bump proc-macro-crate from 3.0.0 to 3.1.0 (#139)\n\nBumps [proc-macro-crate](https://github.com/bkchr/proc-macro-crate) from\r\n3.0.0 to 3.1.0.\r\n<details>\r\n<summary>Release notes</summary>\r\n<p><em>Sourced from <a\r\nhref=\"https://github.com/bkchr/proc-macro-crate/releases\">proc-macro-crate's\r\nreleases</a>.</em></p>\r\n<blockquote>\r\n<h2>v3.0.1</h2>\r\n<h2>What's Changed</h2>\r\n<ul>\r\n<li>Support workspace dependencies in the root crate of a workspace by\r\n<a href=\"https://github.com/Waridley\"><code>@​Waridley</code></a> in <a\r\nhref=\"https://redirect.github.com/bkchr/proc-macro-crate/pull/46\">bkchr/proc-macro-crate#46</a></li>\r\n<li>Release 3.0.1 by <a\r\nhref=\"https://github.com/bkchr\"><code>@​bkchr</code></a> in <a\r\nhref=\"https://redirect.github.com/bkchr/proc-macro-crate/pull/49\">bkchr/proc-macro-crate#49</a></li>\r\n</ul>\r\n<h2>New Contributors</h2>\r\n<ul>\r\n<li><a href=\"https://github.com/Waridley\"><code>@​Waridley</code></a>\r\nmade their first contribution in <a\r\nhref=\"https://redirect.github.com/bkchr/proc-macro-crate/pull/46\">bkchr/proc-macro-crate#46</a></li>\r\n</ul>\r\n<p><strong>Full Changelog</strong>: <a\r\nhref=\"https://github.com/bkchr/proc-macro-crate/compare/v3.0.0...v3.0.1\">https://github.com/bkchr/proc-macro-crate/compare/v3.0.0...v3.0.1</a></p>\r\n</blockquote>\r\n</details>\r\n<details>\r\n<summary>Commits</summary>\r\n<ul>\r\n<li>See full diff in <a\r\nhref=\"https://github.com/bkchr/proc-macro-crate/commits\">compare\r\nview</a></li>\r\n</ul>\r\n</details>\r\n<br />\r\n\r\n\r\n[![Dependabot compatibility\r\nscore](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=proc-macro-crate&package-manager=cargo&previous-version=3.0.0&new-version=3.1.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)\r\n\r\nDependabot will resolve any conflicts with this PR as long as you don't\r\nalter it yourself. You can also trigger a rebase manually by commenting\r\n`@dependabot rebase`.\r\n\r\n[//]: # (dependabot-automerge-start)\r\n[//]: # (dependabot-automerge-end)\r\n\r\n---\r\n\r\n<details>\r\n<summary>Dependabot commands and options</summary>\r\n<br />\r\n\r\nYou can trigger Dependabot actions by commenting on this PR:\r\n- `@dependabot rebase` will rebase this PR\r\n- `@dependabot recreate` will recreate this PR, overwriting any edits\r\nthat have been made to it\r\n- `@dependabot merge` will merge this PR after your CI passes on it\r\n- `@dependabot squash and merge` will squash and merge this PR after\r\nyour CI passes on it\r\n- `@dependabot cancel merge` will cancel a previously requested merge\r\nand block automerging\r\n- `@dependabot reopen` will reopen this PR if it is closed\r\n- `@dependabot close` will close this PR and stop Dependabot recreating\r\nit. You can achieve the same result by closing it manually\r\n- `@dependabot show <dependency name> ignore conditions` will show all\r\nof the ignore conditions of the specified dependency\r\n- `@dependabot ignore this major version` will close this PR and stop\r\nDependabot creating any more for this major version (unless you reopen\r\nthe PR or upgrade to it yourself)\r\n- `@dependabot ignore this minor version` will close this PR and stop\r\nDependabot creating any more for this minor version (unless you reopen\r\nthe PR or upgrade to it yourself)\r\n- `@dependabot ignore this dependency` will close this PR and stop\r\nDependabot creating any more for this dependency (unless you reopen the\r\nPR or upgrade to it yourself)\r\n\r\n\r\n</details>\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2024-01-19T15:17:25+01:00",
+          "tree_id": "73053fd78512eb9b4135c1a2f33a608cd579a938",
+          "url": "https://github.com/mbrobbel/narrow/commit/58c2d4ef568a50dd642a515dbf6fdcdf3cc2f46c"
+        },
+        "date": 1705673969946,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 3917,
+            "range": "± 15",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 3918,
+            "range": "± 12",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 3925,
+            "range": "± 12",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 11497,
+            "range": "± 54",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 11495,
+            "range": "± 26",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 11494,
+            "range": "± 561",
             "unit": "ns/iter"
           }
         ]
