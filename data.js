@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1714743159381,
+  "lastUpdate": 1715690369508,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -7859,6 +7859,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 7930,
             "range": "± 459",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "m1brobbel@gmail.com",
+            "name": "Matthijs Brobbel",
+            "username": "mbrobbel"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ad2c68adfe78dce723aa76c0a91521e7877346de",
+          "message": "docs: add why section to `README` (#177)\n\nCo-authored-by: Johan Peltenburg <johan.peltenburg+code@gmail.com>\r\nSigned-off-by: Matthijs Brobbel <m1brobbel@gmail.com>",
+          "timestamp": "2024-05-14T14:36:22+02:00",
+          "tree_id": "d16ebbd32f18fcffcb008d668fc6440b854dc725",
+          "url": "https://github.com/mbrobbel/narrow/commit/ad2c68adfe78dce723aa76c0a91521e7877346de"
+        },
+        "date": 1715690369204,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 3913,
+            "range": "± 121",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 3891,
+            "range": "± 42",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 3914,
+            "range": "± 14",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 7926,
+            "range": "± 820",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 7925,
+            "range": "± 85",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 7925,
+            "range": "± 15",
             "unit": "ns/iter"
           }
         ]
