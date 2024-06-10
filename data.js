@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717771289629,
+  "lastUpdate": 1718029576182,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -8459,6 +8459,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 11021,
             "range": "± 245",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dhruv25vats@gmail.com",
+            "name": "Dhruv Vats",
+            "username": "dhruv9vats"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6385862260520f9f00bee1ea8e76d0c80df4d64e",
+          "message": "feat: Implement `IntoIterator` for `VariableSizeListArray` (#186)",
+          "timestamp": "2024-06-10T16:24:09+02:00",
+          "tree_id": "079f8c671fac06ec78bca395d33155efc097d142",
+          "url": "https://github.com/mbrobbel/narrow/commit/6385862260520f9f00bee1ea8e76d0c80df4d64e"
+        },
+        "date": 1718029575556,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 3899,
+            "range": "± 79",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 3895,
+            "range": "± 77",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 3908,
+            "range": "± 22",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 11021,
+            "range": "± 112",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 11020,
+            "range": "± 82",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 11024,
+            "range": "± 66",
             "unit": "ns/iter"
           }
         ]
