@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719320064604,
+  "lastUpdate": 1719322159697,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -8819,6 +8819,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 11500,
             "range": "± 321",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "johan.peltenburg+code@gmail.com",
+            "name": "Johan Peltenburg",
+            "username": "johanpel"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "40cb3a52d61cb7ebfea7899124e19aa246df9f26",
+          "message": "feat: Add support for variable size binary interop with arrow-rs (#191)\n\nSigned-off-by: Matthijs Brobbel <m1brobbel@gmail.com>\r\nCo-authored-by: Matthijs Brobbel <m1brobbel@gmail.com>",
+          "timestamp": "2024-06-25T13:27:15Z",
+          "tree_id": "bfc53a1d9b41bbe169385ba6acc3cfeac37085e1",
+          "url": "https://github.com/mbrobbel/narrow/commit/40cb3a52d61cb7ebfea7899124e19aa246df9f26"
+        },
+        "date": 1719322159067,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 3975,
+            "range": "± 121",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 3974,
+            "range": "± 16",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 3969,
+            "range": "± 105",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 11493,
+            "range": "± 95",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 11498,
+            "range": "± 111",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 11501,
+            "range": "± 363",
             "unit": "ns/iter"
           }
         ]
