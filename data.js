@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723762932365,
+  "lastUpdate": 1723802495869,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -10739,6 +10739,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 11027,
             "range": "± 153",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "m1brobbel@gmail.com",
+            "name": "Matthijs Brobbel",
+            "username": "mbrobbel"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2f937bb44fa76861f0781e340af0eee1b4306f3f",
+          "message": "feat: add `map` feature with logical array support for `HashMap` (#223)",
+          "timestamp": "2024-08-16T11:58:53+02:00",
+          "tree_id": "20e7b49b49e29ce65368903df164ba151b42f70d",
+          "url": "https://github.com/mbrobbel/narrow/commit/2f937bb44fa76861f0781e340af0eee1b4306f3f"
+        },
+        "date": 1723802495568,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 3902,
+            "range": "± 223",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 3892,
+            "range": "± 182",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 3909,
+            "range": "± 95",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 11029,
+            "range": "± 147",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 11023,
+            "range": "± 113",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 11022,
+            "range": "± 99",
             "unit": "ns/iter"
           }
         ]
