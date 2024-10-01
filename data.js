@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727771231844,
+  "lastUpdate": 1727788369896,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -12719,6 +12719,66 @@ window.BENCHMARK_DATA = {
             "name": "Bitmap::into_iter/narrow/12345/1",
             "value": 11084,
             "range": "± 72",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "johan.peltenburg+code@gmail.com",
+            "name": "Johan Peltenburg",
+            "username": "johanpel"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "141da63a70fbf78c6afd061bbe2eef05f2e1b858",
+          "message": "test: Implement example showing LoC reduction in building RecordBatches (#256)",
+          "timestamp": "2024-10-01T13:10:33Z",
+          "tree_id": "071e1be61be5c5a1469817c20a9fca0e4f82a3de",
+          "url": "https://github.com/mbrobbel/narrow/commit/141da63a70fbf78c6afd061bbe2eef05f2e1b858"
+        },
+        "date": 1727788369424,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 3960,
+            "range": "± 173",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 3948,
+            "range": "± 13",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 3947,
+            "range": "± 20",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 11085,
+            "range": "± 232",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 11087,
+            "range": "± 117",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 11091,
+            "range": "± 187",
             "unit": "ns/iter"
           }
         ]
