@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1756064595655,
+  "lastUpdate": 1756064891036,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -72346,6 +72346,114 @@ window.BENCHMARK_DATA = {
           {
             "name": "FixedSizePrimitiveArray::<arrow_array::types::UInt64Type, true>::from_iter/narrow/0.5/256",
             "value": 532,
+            "range": "± 2",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b9fada5d650b28ad21ceef0e57f18f1c7c60459f",
+          "message": "chore(deps): bump proc-macro2 from 1.0.95 to 1.0.101 (#429)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2025-08-24T19:44:07Z",
+          "tree_id": "c1f19de1579d0a968be5b199dea18232d7f5b17e",
+          "url": "https://github.com/mbrobbel/narrow/commit/b9fada5d650b28ad21ceef0e57f18f1c7c60459f"
+        },
+        "date": 1756064889638,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 6561,
+            "range": "± 7",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 6564,
+            "range": "± 11",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 6561,
+            "range": "± 6",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 13481,
+            "range": "± 61",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 13467,
+            "range": "± 83",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 13509,
+            "range": "± 101",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "FixedSizePrimitiveArray::<arrow_array::types::UInt8Type, false>::from_iter/arrow-rs/256",
+            "value": 970,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "FixedSizePrimitiveArray::<arrow_array::types::UInt8Type, false>::from_iter/narrow/256",
+            "value": 14,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "FixedSizePrimitiveArray::<arrow_array::types::UInt64Type, false>::from_iter/arrow-rs/256",
+            "value": 1103,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "FixedSizePrimitiveArray::<arrow_array::types::UInt64Type, false>::from_iter/narrow/256",
+            "value": 58,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "FixedSizePrimitiveArray::<arrow_array::types::UInt8Type, true>::from_iter/arrow-rs/0.5/256",
+            "value": 964,
+            "range": "± 3",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "FixedSizePrimitiveArray::<arrow_array::types::UInt8Type, true>::from_iter/narrow/0.5/256",
+            "value": 368,
+            "range": "± 1",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "FixedSizePrimitiveArray::<arrow_array::types::UInt64Type, true>::from_iter/arrow-rs/0.5/256",
+            "value": 1091,
+            "range": "± 2",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "FixedSizePrimitiveArray::<arrow_array::types::UInt64Type, true>::from_iter/narrow/0.5/256",
+            "value": 530,
             "range": "± 2",
             "unit": "ns/iter"
           }
