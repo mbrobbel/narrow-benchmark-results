@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759176966731,
+  "lastUpdate": 1759177236334,
   "repoUrl": "https://github.com/mbrobbel/narrow",
   "entries": {
     "narrow": [
@@ -74075,6 +74075,114 @@ window.BENCHMARK_DATA = {
             "name": "FixedSizePrimitiveArray::<arrow_array::types::UInt64Type, true>::from_iter/narrow/0.5/256",
             "value": 580,
             "range": "± 3",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "188107253+narrow-app[bot]@users.noreply.github.com",
+            "name": "narrow-app[bot]",
+            "username": "narrow-app[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0e73ff189132d648ca719094e242e8710693cf9e",
+          "message": "chore: release v0.14.1 (#436)\n\nCo-authored-by: narrow-app[bot] <188107253+narrow-app[bot]@users.noreply.github.com>",
+          "timestamp": "2025-09-29T20:17:49Z",
+          "tree_id": "8e03fc8f1c1346899922601e93ff303af9d0d24b",
+          "url": "https://github.com/mbrobbel/narrow/commit/0e73ff189132d648ca719094e242e8710693cf9e"
+        },
+        "date": 1759177234857,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0",
+            "value": 6563,
+            "range": "± 11",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/0.5",
+            "value": 6565,
+            "range": "± 10",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::from_iter/narrow/12345/1",
+            "value": 6569,
+            "range": "± 7",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0",
+            "value": 13389,
+            "range": "± 20",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/0.5",
+            "value": 13385,
+            "range": "± 37",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Bitmap::into_iter/narrow/12345/1",
+            "value": 13383,
+            "range": "± 16",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "FixedSizePrimitiveArray::<arrow_array::types::UInt8Type, false>::from_iter/arrow-rs/256",
+            "value": 628,
+            "range": "± 4",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "FixedSizePrimitiveArray::<arrow_array::types::UInt8Type, false>::from_iter/narrow/256",
+            "value": 14,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "FixedSizePrimitiveArray::<arrow_array::types::UInt64Type, false>::from_iter/arrow-rs/256",
+            "value": 709,
+            "range": "± 7",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "FixedSizePrimitiveArray::<arrow_array::types::UInt64Type, false>::from_iter/narrow/256",
+            "value": 58,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "FixedSizePrimitiveArray::<arrow_array::types::UInt8Type, true>::from_iter/arrow-rs/0.5/256",
+            "value": 728,
+            "range": "± 3",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "FixedSizePrimitiveArray::<arrow_array::types::UInt8Type, true>::from_iter/narrow/0.5/256",
+            "value": 435,
+            "range": "± 2",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "FixedSizePrimitiveArray::<arrow_array::types::UInt64Type, true>::from_iter/arrow-rs/0.5/256",
+            "value": 849,
+            "range": "± 4",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "FixedSizePrimitiveArray::<arrow_array::types::UInt64Type, true>::from_iter/narrow/0.5/256",
+            "value": 575,
+            "range": "± 2",
             "unit": "ns/iter"
           }
         ]
